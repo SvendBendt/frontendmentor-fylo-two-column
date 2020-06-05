@@ -142,8 +142,10 @@ a {
   margin:0 0 0 80px;
 }
 
-.stayproductive__txtbox h1{
+.stayproductive__h2{
   margin: 58px 0 30px 0;
+  color:#07043B;
+  font-family: 'Raleway', sans-serif;
 }
 
 .stayproductive__txt{
@@ -517,20 +519,20 @@ h1 {
 .stayproductive {
   display: flex;
   flex-direction:column;
-  /* justify-content: space-between; */
+  justify-content: flex-start;
   margin-bottom: 0;
   height:908px;
 }
 
 .stayproductive__txtbox {
-  flex: 0 0 700px;
+  flex: 0 0 480px;
   order:2;
   margin:0;
 }
 
-.stayproductive__txtbox h1{
+.stayproductive__h2{
   font-size: 16px;
-  margin: 0 55px 24px 56px;
+  margin: 0 55px 26px 56px;
 }
 
 .stayproductive__txt{
@@ -636,7 +638,7 @@ margin: 0 0 0 26px;
   order:1;
   flex:0 0 241px;
   height:241px;
-  margin:40px 27px 87px 28px;
+  margin:40px 27px 90px 28px;
   }
 
 
@@ -657,28 +659,32 @@ margin: 0 0 0 26px;
   height: 345px;
   color:#FFFFFF;
   line-height: 1.5;
+  padding-top:54px;
 }
 
 .cta__textbox {
-  flex:0 0 720px;
+  flex:0;
 }
 
 .cta__signup {
-  flex:0 0 720px;
+  flex:0;
 }
 
 .cta p{
   margin: 0 120px 0 80px;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.5px;
 }
 
 .cta h2{
+  color:#FFFFFF;
   font-family: 'Raleway', sans-serif;
-  font-size:32px;
+  font-size:18px;
   font-weight: 700;
   letter-spacing:0;
-  margin: 100px 0 16px 80px;
+  line-height:1.5;
+  margin: 0px 85px 16px 86px ;
+  text-alignment:center;
 }
 
 .cta__signup input {
