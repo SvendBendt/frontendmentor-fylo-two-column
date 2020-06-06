@@ -4,5 +4,12 @@
 *  Styled from the JPG design files
 *  Plain html/css
 *  Flexbox
-*  Responsiveness will be limited, hardcoded to the PX values in the design files.
+*  Responsiveness will be limited, hardcoded to the 2 sets of px values in the design files.
 *  "BEM inspired" classnames
+
+## Todo:
+Form tags
+Check accesability 
+Add contribution in footer
+Convert to mobile-first
+
