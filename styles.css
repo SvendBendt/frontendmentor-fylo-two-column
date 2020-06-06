@@ -373,7 +373,7 @@ margin: 0 0 0 33px;
 
 .social-icon {
   border-radius: 50%;
-  border: solid 1px #ffffff;
+  border: solid 1px hsl(222, 36.2%, 90.8%);
   box-sizing:border-box;
   font-size:14px;
   padding-top:8px;
@@ -723,7 +723,7 @@ margin: 0 0 0 26px;
 .footer {
   box-sizing:border-box;
   height: 683px;
-  padding: 64.72px 0 0 39px;
+  padding: 64.72px 39px 0 39px;
 }
 
 .footer-logo {
@@ -739,21 +739,21 @@ margin: 0 0 0 26px;
 }
 
 .footer__contact {
-  flex: 0 0 100px;
+  flex: 0 0 87px;
   padding:0;
 }
 
 .footer__left-nav {
-  flex: 0 0 100px;
+  flex: 0 0 185px;
 }
 
 .footer__right-nav {
-  flex: 0 0 100px;
+  flex: 0 0 149px;
 }
 
 .footer__social-icons {
-  flex: 0 0 150px;
-  padding-top:16px;
+  flex: 0 0 50px;
+  padding:16px 0 0 97px;
 }
 
 .footer__contact--txt  {
@@ -783,19 +783,19 @@ margin: 0 0 0 26px;
 
 .social-icon {
   border-radius: 50%;
-  border: solid 1px #ffffff;
+  border: solid 0.8px hsl(222, 36.2%, 90.8%);
   box-sizing:border-box;
-  font-size:14px;
-  padding-top:8px;
+  font-size:12px;
+  padding-top:6px;
   text-align:center;
   vertical-align: middle;
-  margin:3px 8.49px 0 0; /* What is creating the extra margin here? */
-  width:31.22px;
-  height:31px;
+  margin:0 7px 0 0;
+  width:27.06px;
+  height:27px;
 }
 
 .fa-instagram{
-  font-size:17px;
+  font-size:14  px;
   padding-top: 6px;
 }
 
