@@ -274,14 +274,13 @@ margin: 0 0 0 33px;
   margin: 100px 0 16px 80px;
 }
 
-.cta__signup input {
+.cta__signup-input {
   background-color: #ffffff;
   box-sizing: border-box;
   color: #C0C0C0;
   font-size:12px;
   letter-spacing: 0;
   display: block;
-  height: 3.13px;
   width: 480px;
   height:48px;
   border-radius: 3px;
@@ -292,7 +291,7 @@ margin: 0 0 0 33px;
   padding:0 0 0 22px;
 }
 
-.cta__signup button {
+.cta__signup-btn {
   background-color: #3065f8;
   background-color: hsl(224, 93%, 58%);
   border: none;
@@ -616,7 +615,7 @@ margin: 0 0 0 26px;
 }
 
 .stayproductive__card-signaturebox-textbox {
-  flex:0 0 300px;
+  flex:0 0 100px;
   vertical-align: middle;
 }
 
@@ -652,6 +651,7 @@ margin: 0 0 0 26px;
 
 
 .cta {
+  box-sizing: border-box;
   background-color: #585989;
   background-color: hsl(238, 22%, 44%);
   display: flex;
@@ -659,7 +659,7 @@ margin: 0 0 0 26px;
   height: 345px;
   color:#FFFFFF;
   line-height: 1.5;
-  padding-top:54px;
+  padding-top:52px;
 }
 
 .cta__textbox {
@@ -671,9 +671,10 @@ margin: 0 0 0 26px;
 }
 
 .cta p{
-  margin: 0 120px 0 80px;
+  margin: 0 59px 24px 36px;
   font-size: 14px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0px;
+  text-align:center;
 }
 
 .cta h2{
@@ -683,74 +684,71 @@ margin: 0 0 0 26px;
   font-weight: 700;
   letter-spacing:0;
   line-height:1.5;
-  margin: 0px 85px 16px 86px ;
-  text-alignment:center;
+  margin: 0px 85px 16px 86px;
 }
 
-.cta__signup input {
+.cta__signup-input {
   background-color: #ffffff;
   box-sizing: border-box;
   color: #C0C0C0;
-  font-size:12px;
+  font-size:10    px;
   letter-spacing: 0;
   display: block;
-  height: 3.13px;
-  width: 480px;
-  height:48px;
-  border-radius: 3px;
+  width: 240px;
+  height:32px;
+  border-radius: 1.47px;
   border-width: 0;
   border-style: solid;
   box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16);
-  margin: 112px 120px 16px 120px;
-  padding:0 0 0 22px;
+  margin: 0 69px 8px 66px;
+  padding:11px 0 10px 8px;
 }
 
-.cta__signup button {
+.cta__signup-btn {
   background-color: #3065f8;
   background-color: hsl(224, 93%, 58%);
   border: none;
   border-radius: 3.13px;
   box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16);
   color: #ffffff;
-  height: 48px;
-  width:200px;
-  margin: 0 0 0 120px;
+  height: 32px;
+  width:240px;
+  margin: 0 0 0 66px;
   font-family: 'Raleway', sans-serif;
   letter-spacing:0;
   font-weight:700;
-  font-size:14px;
+  font-size:10px;
   }
 
 .footer {
-  height: 683;
-  padding: 105.61px 0 0 75px;
+  box-sizing:border-box;
+  height: 683px;
+  padding: 64.72px 0 0 39px;
 }
 
 .footer-logo {
   filter: brightness(0) invert(1);
   display: block;
   height:51.22px;
-  margin:2px 6px 9px 6px;
+  margin:0 0 24px 0;
 }
 
 .footer__content {
-  display: flex;
-  justify-content:flex-start;
-  width: 100%;
-  color: #ffffff;
+  flex-direction:column;
+  /* justify-content:flex-start; */
 }
 
 .footer__contact {
-  flex: 0 0 441px;
+  flex: 0 0 100px;
   padding:0;
 }
 
 .footer__left-nav {
-  flex: 0 0 269px;
+  flex: 0 0 100px;
 }
 
 .footer__right-nav {
-  flex: 0 0 274px;
+  flex: 0 0 100px;
 }
 
 .footer__social-icons {
@@ -763,13 +761,13 @@ margin: 0 0 0 26px;
   line-height:1;
 }
 
-.footer__contact--phone-icon{
-  margin:0 19px 0 0;
+.footer__phone-icon{
+  margin:0 19px 0 3px;
   vertical-align: middle;
 }
 
-.footer__contact--email-icon{
-  margin:0 17px 0 0;
+.footer__email-icon{
+  margin:0 17px 0 2px;
   vertical-align: middle;
 }
 
@@ -780,7 +778,7 @@ margin: 0 0 0 26px;
 .footer li{
   display: block;
   height:22px;
-  margin:0 0 16px 8px;
+  margin:0 0 16px 0;
 }
 
 .social-icon {
