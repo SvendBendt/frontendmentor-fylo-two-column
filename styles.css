@@ -24,19 +24,6 @@ ul {
   list-style: none;
 }
 
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0 15px 0;
-  padding: 0;
-  position: absolute;
-  right: 0px;
-  /*TODO Remove this hack*/
-  top: 63px;
-  width: 271px;
-  height: 19px;
-}
-
 .main-nav li {
   text-align: center;
 }
@@ -402,19 +389,6 @@ a {
     width: 167px;
     height: 14px;
   }
-
-/*.main-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0 15px 0;
-  padding: 0;
-  position: absolute;
-  right: 0px;
-  /*TODO Remove this hack*/
-  top: 63px;
-  width: 271px;
-  height: 19px;
-}*/
 
   a {
     font-size: 12px;
