@@ -9,7 +9,7 @@
 
 ## Todo:
 Form tags
-Check accesability 
+Check accessibility
 Add contribution in footer
 Convert to mobile-first
-
+Build table-version
