@@ -1,37 +1,60 @@
   body {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
     width: 375px;
+    margin: 0 auto;
   }
 
   header {
+    position: relative;
     height: 48px;
-    margin: 0 24px 74px 24px;
     padding-top: 24.49px;
+    margin: 0 24px 74px 24px;
   }
 
-  header img {
+  header img { /*TODO Class*/
     height: 23.65px;
   }
 
   .main-nav {
-    margin: 15px 0 15px 0;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     right: 0px;
     top: 8px;
-    width: 167px;
     height: 14px;
+    width: 167px;
+    padding: 0;
+    margin: 15px 0 15px 0;
   }
 
   a {
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #07043B;
   }
 
   h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 24px;
+    color: #07043B;
+    text-align: center;
+    /* line-height: 1.5; */
+  }
+
+  ul { /*class*/
+    list-style: none;
+  }
+
+  .main-nav li { /*class*/
     text-align: center;
   }
 
   .allyourfiles {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 609px;
@@ -41,15 +64,25 @@
   .allyourfiles__textbox {
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex: 0 0 320px;
-    margin: 0;
     order: 2;
+    align-items: center;
+    margin: 0;
   }
 
   .allyourfiles__textbox h1 {
     margin: 0 27px 24px 28px;
   }
+
+/*TODO Create seperate CSS for mobile*/
+
+
+
+
+
+
+
+
 
   .allyourfiles__textbox p {
     font-size: 14px;

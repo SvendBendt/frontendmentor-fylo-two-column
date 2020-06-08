@@ -1,56 +1,38 @@
 body {
-  font-family: 'Open sans', sans-serif;
-  font-weight: 400;
-  margin: 0 auto;
   width: 1440px;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.5;
-  color: #07043B;
-  font-family: 'Raleway', sans-serif;
 }
 
 header {
   height: 49px;
-  margin: 0 80px 86px 80px;
   padding-top: 65px;
-  position: relative;
+  margin: 0 80px 86px 80px;
 }
 
-ul {
-  list-style: none;
+header img { /*TODO Class*/
+  height: 23.65px; /*Adjust for desktop*/
 }
 
 .main-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0 15px 0;
-  padding: 0;
-  position: absolute;
-  right: 0px;
+  /* right: 0px; */
   /*TODO Remove this hack*/
   top: 63px;
-  width: 271px;
   height: 19px;
-}
-
-.main-nav li {
-  text-align: center;
+  width: 271px;
+  padding: 0;
+  margin: 15px 0 15px 0;
 }
 
 a {
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  color: #07043B
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
 }
 
 .allyourfiles {
-  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
   height: 474px;
@@ -58,15 +40,25 @@ a {
 }
 
 .allyourfiles__textbox {
+  flex-direction: row;
   flex: 0 0 600px;
   height: 474px;
   margin: 77px 0 2px 80px;
 }
 
-.allyourfiles__textbox h1 {
-  /* Should this be targeted with a class instead? */
+.allyourfiles__textbox h1 { /*class */
   margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 .allyourfiles__textbox p {
   color: hsl(243, 87.3%, 12.4%);
