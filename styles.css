@@ -76,15 +76,8 @@
 
 /*TODO Create seperate CSS for mobile*/
 
-
-
-
-
-
-
-
-
   .allyourfiles__textbox p {
+    color: hsl(243, 87.3%, 12.4%);
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0;
@@ -94,14 +87,14 @@
 
   .allyourfiles__input {
     box-sizing: border-box;
+    color: #bfbfbf;
+    letter-spacing: 1px;
     border-radius: 2px;
     border-style: solid;
     border-width: 1px;
-    color: #bfbfbf;
-    letter-spacing: 1px;
-    padding: 6px 0 0 20px;
-    height: 40px;
     width: 304px;
+    height: 40px;
+    padding: 6px 0 0 20px;
     margin: 0 0 16px 0;
   }
 
@@ -112,18 +105,18 @@
     color: white;
     letter-spacing: 1px;
     vertical-align: middle;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
     height: 40px;
     width: 304px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
   }
 
   .allyourfiles__img {
     order: 1;
     flex: 0 0 225px;
     height: 225px;
-    margin: 0 auto 40px;
     padding: 0;
+    margin: 0 auto 40px;
   }
 
   .curve_img {
@@ -134,10 +127,11 @@
 
   .stayproductive {
     display: flex;
+    background-color: #F8F8FE;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom: 0;
     height: 908px;
+    margin-bottom: 0;
   }
 
   .stayproductive__txtbox {
@@ -147,6 +141,8 @@
   }
 
   .stayproductive__h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #07043B;
     font-size: 16px;
     margin: 0 55px 26px 56px;
   }
@@ -159,8 +155,9 @@
 
   .stayproductive__txt2 {
     font-size: 14px;
-    margin: 0 35px 32px 20px;
+    font-weight: 400;
     text-align: center;
+    margin: 0 35px 32px 20px;
   }
 
   /* TODO: Msg Matt, Design jpg: text aligned left, sketch: text aligned center */
@@ -205,7 +202,6 @@
     color: #07043B;
     display: inline-block;
     line-height: 1.5;
-    margin: 0;
     position: absolute;
     top: 8px;
     margin: 0 0 0 26px;
