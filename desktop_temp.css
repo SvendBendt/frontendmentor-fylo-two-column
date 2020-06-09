@@ -178,23 +178,21 @@ h1 {
 }
 
 .stayproductive__card-signaturebox {
-  display: flex;
+  /* display: flex; */
 }
 
 .stayproductive__card-img {
   border-radius: 50%;
-  width: 32px;
   height: 32px;
+  width: 32px;
   margin-left: 33px;
 }
 
 .stayproductive__card-signaturebox-textbox {
   flex: 0 0 300px;
-  vertical-align: middle;
 }
 
 .stayproductive__card-name {
-  color: #07043B;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.55px;
@@ -205,22 +203,19 @@ h1 {
   font-size: 8px;
   letter-spacing: 0.55px;
   line-height: 1.875;
-  margin: 0 0 0 8px;
+  /* margin: 0 0 0 8px; */
 }
 
 .stayproductive__img {
   max-width: 100%;
-  margin: 88px 80px 0 38px;
   height: 409px;
+  margin: 88px 80px 0 38px;
 }
 
 .cta {
-  background-color: #585989;
-  background-color: hsl(238, 22%, 44%);
-  display: flex;
+  flex-direction: row;
   height: 322px;
-  color: #FFFFFF;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 .cta__textbox {
@@ -232,71 +227,56 @@ h1 {
 }
 
 .cta p {
-  margin: 0 120px 0 80px;
   font-size: 16px;
   letter-spacing: 0.5px;
+  margin: 0 120px 0 80px;
 }
 
 .cta h2 {
-  font-family: 'Raleway', sans-serif;
   font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 0;
+  /* letter-spacing: 0; */
   margin: 100px 0 16px 80px;
 }
 
 .cta__signup-input {
-  background-color: #ffffff;
-  box-sizing: border-box;
-  color: #C0C0C0;
   font-size: 12px;
-  letter-spacing: 0;
-  display: block;
-  width: 480px;
-  height: 48px;
+  /* letter-spacing: 0; */
   border-radius: 3px;
-  border-width: 0;
+  /* border-width: 0; */
   border-style: solid;
-  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16);
-  margin: 112px 120px 16px 120px;
+  /* box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); */
+  height: 48px;
+  width: 480px;
   padding: 0 0 0 22px;
+  margin: 112px 120px 16px 120px;
 }
 
 .cta__signup-btn {
-  background-color: #3065f8;
-  background-color: hsl(224, 93%, 58%);
-  border: none;
-  border-radius: 3.13px;
-  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16);
-  color: #ffffff;
+  /* border-radius: 3.13px; */
+  /* box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); */
+  font-family: 'Raleway', sans-serif;
+  /* letter-spacing: 0; */
+  font-size: 14px;
   height: 48px;
   width: 200px;
   margin: 0 0 0 120px;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 0;
-  font-weight: 700;
-  font-size: 14px;
 }
 
 .footer {
-  background-color: #07043B;
   color: #ffffff;
   height: 391px;
   padding: 105.61px 0 0 75px;
 }
 
 .footer-logo {
-  filter: brightness(0) invert(1);
-  display: block;
-  height: 51.22px;
+  /* height: 51.22px; */
   margin: 2px 6px 9px 6px;
 }
 
 .footer__content {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
-  width: 100%;
-  color: #ffffff;
 }
 
 .footer__contact {
@@ -318,13 +298,12 @@ h1 {
 }
 
 .footer__contact--txt {
-  display: inline;
-  line-height: 1;
+  /* line-height: 1; */
 }
 
 .footer__phone-icon {
   margin: 0 19px 0 0;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .footer__email-icon {
@@ -333,7 +312,7 @@ h1 {
 }
 
 .footer ul {
-  padding: 0;
+  /* padding: 0; */
 }
 
 .footer li {
@@ -343,17 +322,13 @@ h1 {
 }
 
 .social-icon {
-  border-radius: 50%;
-  border: solid 1px hsl(222, 36.2%, 90.8%);
-  box-sizing: border-box;
+  /* border-radius: 50%; */
+  /* border: solid 1px hsl(222, 36.2%, 90.8%); */
   font-size: 14px;
   padding-top: 8px;
-  text-align: center;
-  vertical-align: middle;
-  margin: 3px 8.49px 0 0;
-  /* What is creating the extra margin here? */
-  width: 31.22px;
   height: 31px;
+  width: 31.22px;
+  margin: 3px 8.49px 0 0;
 }
 
 .fa-instagram {
