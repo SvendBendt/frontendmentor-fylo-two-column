@@ -12,7 +12,7 @@
     margin: 0 24px 74px 24px;
   }
 
-  header img { /*TODO Class*/
+  .header-logo { /*TODO Class*/
     height: 23.65px;
   }
 
@@ -34,15 +34,6 @@
     font-weight: 400;
     text-decoration: none;
     color: #07043B;
-  }
-
-  h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    color: #07043B;
-    text-align: center;
-    /* line-height: 1.5; */
   }
 
   ul { /*class*/
@@ -70,11 +61,16 @@
     margin: 0;
   }
 
-  .allyourfiles__textbox h1 {
+  .allyourfiles_h1 {
+    font-family: 'Open sans', sans-serif; /*Open sans in mobile - design-choice or mistake?*/
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.7px; /*sketch*/
+    line-height: 1.5;
+    text-align: center;
+    color: #07043B;
     margin: 0 27px 24px 28px;
   }
-
-/*TODO Create seperate CSS for mobile*/
 
   .allyourfiles__textbox p {
     color: hsl(243, 87.3%, 12.4%);
@@ -437,14 +433,6 @@
     font-size: 16px;
   }
 
-  h1 {
-    font-size: 40px;
-    line-height: 1.5;
-  }
-
-
-
-
   .allyourfiles {
     flex-direction: row;
     align-items: flex-start;
@@ -460,7 +448,8 @@
     margin: 77px 0 2px 80px;
   }
 
-  .allyourfiles__textbox h1 { /*class */
+  .allyourfiles_h1{
+    font-size: 40px;
     margin: 0;
   }
 
