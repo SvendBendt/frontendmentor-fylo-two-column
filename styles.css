@@ -133,41 +133,42 @@
   .stayproductive__txtbox {
     flex: 0 0 480px;
     order: 2;
+    font-size: 14px;
+    line-height:1.5;
     margin: 0;
   }
 
   .stayproductive__h2 {
     font-family: 'Raleway', sans-serif;
-    color: #07043B;
     font-size: 16px;
-    margin: 0 55px 26px 56px;
+    text-align:center;
+    letter-spacing:0.15px; /*sketch*/
+    color: #07043B;
+    margin: 0 0 24px 0;
   }
 
   .stayproductive__txt {
-    font-size: 14px;
     margin: 0 35px 16px 20px;
-    text-align: center;
   }
 
   .stayproductive__txt2 {
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
     margin: 0 35px 32px 20px;
   }
 
-  /* TODO: Msg Matt, Design jpg: text aligned left, sketch: text aligned center */
+  /* TODO:Design jpg: text aligned left, sketch: text aligned center */
   .stayproductive__link {
+    text-align:left;
     color: #3DA08F;
-    margin-left: 123px;
     letter-spacing: 0;
-  }
+    padding-left:123px;
+    margin-right:2px;
+    }
 
-  .stayproductive__arrow {
+  .stayproductive__arrow { /* Design:12px, jpg:18px*/
     vertical-align: middle;
     display: inline-block;
-    height:12px;
-    width: 12px;
+    /* height:12px; */
+    /* width: 12px; */
     /* martini-top:a-ok(y); */
   }
 
@@ -246,14 +247,13 @@
     order: 1;
     flex: 0 0 241px;
     height: 241px;
-    margin: 40px 27px 90px 28px;
+    margin: 40px 27px 88px 28px;
   }
 
   .cta {
     box-sizing: border-box;
     display: flex;
     background-color: #585989;
-    /* background-color: hsl(238, 22%, 44%); */
     flex-direction: column;
     color: #FFFFFF;
     line-height: 1.5;
@@ -304,16 +304,15 @@
   }
 
   .cta__signup-btn {
-    /* background-color: #3065f8; */
     font-family: 'Raleway', sans-serif;
-    background-color: hsl(224, 93%, 58%);
+    font-weight: 700;
+    font-size: 10px;
+    background-color: #3065f8;
+    color: #ffffff;
+    letter-spacing: 0;
     border: none;
     border-radius: 3.13px;
     box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16);
-    color: #ffffff;
-    letter-spacing: 0;
-    font-weight: 700;
-    font-size: 10px;
     height: 32px;
     width: 240px;
     margin: 0 0 0 66px;
@@ -334,9 +333,9 @@
   }
 
   .footer__content {
+    display:flex;
     flex-direction: column;
     color: #ffffff;
-    /* width: 100%; */
   }
 
   .footer__contact {
@@ -374,6 +373,7 @@
 
   .footer ul {
     padding: 0;
+    /* margin-top:60px */
   }
 
   .footer li {
@@ -403,6 +403,7 @@
 /****************************************
 ************ DESKTOP VIEWPORT ************
 *****************************************/
+
 @media screen and (min-width:600px) {
 
   body {
@@ -521,15 +522,13 @@
   }
 
   .stayproductive__txt {
-    /* font-size: 14px; */
-    font-weight: 400;
-    line-height: 1.5;
+    /* line-height: 1.5; */
     margin: 0 170px 16px 0;
   }
 
   .stayproductive__txt2 {
     /* font-size: 14px; */
-    line-height: 1.5;
+    /* line-height: 1.5; */
     /* text-align: center; */
     margin: 0 170px 16px 0;
   }
