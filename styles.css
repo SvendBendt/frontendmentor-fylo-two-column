@@ -165,7 +165,7 @@ ul { /*class*/
 
   /* TODO:Design jpg: text aligned left, sketch: text aligned center */
   .stayproductive__link {
-
+    font-size:12px;
     text-align:left;
     color: #3DA08F;
     letter-spacing: 0;
