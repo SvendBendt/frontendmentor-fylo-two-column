@@ -12,7 +12,7 @@
     margin: 0 24px 74px 24px;
   }
 
-  .header-logo { /*TODO Class*/
+  .header-logo {
     height: 23.65px;
   }
 
@@ -28,15 +28,18 @@
     margin: 15px 0 15px 0;
   }
 
-  a {
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #07043B;
-  }
+.main-nav__item {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+ font-weight: 400;
+  color: #07043B;
+}
 
-  ul { /*class*/
+a {
+    text-decoration: none;
+}
+
+ul { /*class*/
     list-style: none;
   }
 
@@ -80,6 +83,11 @@
     text-align: center;
     margin: 0 43px 32px 36px;
   }
+
+.allyourfiles_cta{
+  display:flex;
+  flex-direction: column;
+}
 
   .allyourfiles__input {
     box-sizing: border-box;
@@ -157,6 +165,7 @@
 
   /* TODO:Design jpg: text aligned left, sketch: text aligned center */
   .stayproductive__link {
+
     text-align:left;
     color: #3DA08F;
     letter-spacing: 0;
@@ -416,13 +425,11 @@
     margin: 0 80px 86px 80px;
   }
 
-  header img { /*TODO Class*/
-    height: 23.65px; /*Adjust for desktop*/
+  .header-logo {
+    height: 49px; /*Sketch, logo split in two*/
   }
 
   .main-nav {
-    /* right: 0px; */
-    /*TODO Remove this hack*/
     top: 63px;
     height: 19px;
     width: 271px;
@@ -430,7 +437,7 @@
     margin: 15px 0 15px 0;
   }
 
-  a {
+  .main-nav__item {
     font-size: 16px;
   }
 
@@ -443,51 +450,47 @@
   }
 
   .allyourfiles__textbox {
-    flex-direction: row;
-    flex: 0 0 600px;
-    height: 474px;
+    flex: 0 0 639px;
+    flex-direction: column;
+    order:1;
+    height: 370px;
     margin: 77px 0 2px 80px;
   }
 
   .allyourfiles_h1{
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
+    letter-spacing:0;
     margin: 0;
+    text-align:left;
   }
 
-
-
-
-
-
-
-
-
-
-
   .allyourfiles__textbox p {
-      font-size: 17px;
+    font-size: 17px;
     line-height: 1.412;
     letter-spacing: 0.53px;
+    text-align:left;
     margin: 15px 0 25px 0;
+    padding-right:30px;
+  }
+
+  .allyourfiles_cta{
+    display:flex;
+    flex-direction:row;
+    align-self: flex-start;
+    justify-content:flex-start;
   }
 
   .allyourfiles__input {
     letter-spacing: 1px;
-    /* border-radius: 2px;
-    border-width: 1px; */
     height: 45px;
     width: 320px;
-    padding: 6px 0 0 20px;
   }
 
   .allyourfiles__btn {
-    /* border: none; */
-    /* border-radius: 2px; */
-    /* letter-spacing: 1px; */
     height: 45px;
     width: 200px;
-    padding: 0 0 0 0;
-    margin: 0 0 6px 12px;
+    margin-left:16px;
   }
 
   .allyourfiles__img {
@@ -502,48 +505,46 @@
 
   .stayproductive {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 670px;
     margin-bottom: 0;
   }
 
-
-
-
-
   .stayproductive__txtbox {
     flex: 0 0 700px;
+    order:1;
     margin: 0 0 0 80px;
   }
 
   .stayproductive__h2 {
+    font-size: 40px;
+    text-align:left;
+    letter-spacing:0.3px; /*Sketch: 0*/
     margin: 58px 0 30px 0;
-    /* font-size: 16px; */
   }
 
   .stayproductive__txt {
+    font-size:16px;
     /* line-height: 1.5; */
     margin: 0 170px 16px 0;
   }
 
   .stayproductive__txt2 {
-    /* font-size: 14px; */
+    font-size:16px;
     /* line-height: 1.5; */
     /* text-align: center; */
-    margin: 0 170px 16px 0;
+    margin: 0 170px 14px 0;
   }
 
   .stayproductive__link {
-    /* color: #3DA08F; */
-    /* margin-left: 123px; */
-    /* letter-spacing: 0; */
+    font-size:16px;
+    padding-left:0;
   }
 
   .stayproductive__arrow {
     vertical-align: middle;
-    /* display: inline-block; */
-    height:12px;
-    width: 12px;
+    height:18px;
+    width: 18px;
     /* martini-top:a-ok(y); */
   }
 
@@ -561,6 +562,7 @@
     /* letter-spacing: 0.5px; */
     width: 356px;
     height: 215px;
+    margin:0;
   }
 
   .stayproductive__quotesign {
@@ -573,7 +575,7 @@
 
   .stayproductive__card-txt {
     padding: 50px 34px 0 33px;
-    margin-bottom: 17px;
+    margin-bottom: 13px;
   }
 
   .stayproductive__card-signaturebox {
@@ -613,6 +615,7 @@
 
   .cta {
     flex-direction: row;
+    padding-top:0;
     height: 322px;
     /* line-height: 1.5; */
   }
@@ -629,6 +632,7 @@
     font-size: 16px;
     letter-spacing: 0.5px;
     margin: 0 120px 0 80px;
+    text-align:left;
   }
 
   .cta h2 {
@@ -693,6 +697,7 @@
 
   .footer__social-icons {
     flex: 0 0 150px;
+    padding-left:0;
     padding-top: 16px;
   }
 
