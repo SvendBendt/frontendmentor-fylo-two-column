@@ -36,10 +36,11 @@
       <img class="allyourfiles__img" src="images\illustration-1.svg" alt="Two carton characters in business attire putting lots of large documents into giant folder">
     </article>
 
-    <!-- TODO: This kind of work, but not really... Not loading mobile.svg in Chrome when decreasing viewport
-    Devtools issue? Cahe disabled.
-    https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images -->
-    <img class="curve_img" srcset="images\bg-curve-mobile.svg 600w, images\bg-curve-desktop.svg 1440w" sizes="(max-width: 600px) 600px, 1440px" src="images\bg-curve-desktop.svg" alt="">
+    <picture>
+      <source  class="curve_img" media="(max-width: 600px)" srcset="images\bg-curve-mobile.svg 375w">
+      <source  class="curve_img" media="(min-width: 601px)" srcset="images\bg-curve-desktop.svg 1440w">
+      <img  class="curve_img" src="images\bg-curve-desktop.svg 1440w" alt="">
+    </picture>
 
     <article class="stayproductive">
       <div class="stayproductive__txtbox">
