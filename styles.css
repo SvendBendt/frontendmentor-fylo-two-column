@@ -5,7 +5,11 @@
     margin: 0 auto;
   }
 
-  header {
+  a {
+    text-decoration: none;
+  }
+
+  .main-header {
     position: relative;
     height: 48px;
     padding-top: 24.49px;
@@ -20,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
+    list-style: none;
     right: 0px;
     top: 8px;
     height: 14px;
@@ -31,21 +36,10 @@
 .main-nav__item {
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
- font-weight: 400;
+  font-weight: 400;
   color: #07043B;
+  text-align: center;
 }
-
-a {
-    text-decoration: none;
-}
-
-ul { /*class*/
-    list-style: none;
-  }
-
-  .main-nav li { /*class*/
-    text-align: center;
-  }
 
   .allyourfiles {
     display: flex;
@@ -75,7 +69,7 @@ ul { /*class*/
     margin: 0 27px 24px 28px;
   }
 
-  .allyourfiles__textbox p {
+  .allyourfiles__textbox-txt { 
     color: hsl(243, 87.3%, 12.4%);
     font-size: 14px;
     line-height: 1.5;
@@ -278,14 +272,14 @@ ul { /*class*/
     flex: 0;
   }
 
-  .cta p {
+  .cta-txt {
     font-size: 14px;
     letter-spacing: 0px;
     text-align: center;
     margin: 0 59px 24px 36px;
   }
 
-  .cta h2 {
+  .cta-headline {
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -380,9 +374,9 @@ ul { /*class*/
     vertical-align: middle;
   }
 
-  .footer ul {
+  .footer__ul {
+    list-style: none;
     padding: 0;
-    /* margin-top:60px */
   }
 
   .footer li {
@@ -419,7 +413,7 @@ ul { /*class*/
     width: 1440px;
   }
 
-  header {
+  .main-header {
     height: 49px;
     padding-top: 65px;
     margin: 0 80px 86px 80px;
@@ -430,10 +424,10 @@ ul { /*class*/
   }
 
   .main-nav {
+    list-style: none;
     top: 63px;
     height: 19px;
     width: 271px;
-    padding: 0;
     margin: 15px 0 15px 0;
   }
 
@@ -465,7 +459,7 @@ ul { /*class*/
     text-align:left;
   }
 
-  .allyourfiles__textbox p {
+  .allyourfiles__textbox-txt {
     font-size: 17px;
     line-height: 1.412;
     letter-spacing: 0.53px;
@@ -628,14 +622,14 @@ ul { /*class*/
     flex: 0 0 720px;
   }
 
-  .cta p {
+  .cta-txt {
     font-size: 16px;
     letter-spacing: 0.5px;
     margin: 0 120px 0 80px;
     text-align:left;
   }
 
-  .cta h2 {
+  .cta-headline {
     font-size: 32px;
     /* letter-spacing: 0; */
     margin: 100px 0 16px 80px;
@@ -715,9 +709,9 @@ ul { /*class*/
     vertical-align: middle;
   }
 
-  .footer ul {
-    /* padding: 0; */
-  }
+  /* .footer ul {
+    padding: 0;
+  } */
 
   .footer li {
     display: block;
