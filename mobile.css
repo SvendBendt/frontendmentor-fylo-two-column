@@ -127,7 +127,7 @@
     display: flex;
     background-color: #F8F8FE;
     flex-direction: column;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     height: 908px;
     margin-bottom: 0;
   }
@@ -144,7 +144,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.15px;/*sketch*/
+    letter-spacing: 0.15px; /*sketch*/
     color: #07043B;
     margin: 0 0 24px 0;
   }
@@ -375,7 +375,7 @@
     padding: 0;
   }
 
-  .footer li {
+  .footer-nav__item {
     display: block;
     height: 22px;
     margin: 0 0 16px 0;
