@@ -1,6 +1,6 @@
-@media screen and (min-width:1440px) {
+@media screen and (min-width:768px) {
   body {
-    width: 1440px;
+    width: 100%;
   }
 
   .main-header {
@@ -31,11 +31,11 @@
   }
 
   .allyourfiles__textbox {
-    flex: 0 0 640px;
+    flex: 1 1 auto;
     flex-direction: column;
     order: 1;
     height: 370px;
-    margin: 77px 0 2px 80px;
+    margin: 77px 0 2px 24px;
   }
 
   .allyourfiles_h1 {
@@ -57,28 +57,33 @@
 
   .allyourfiles_cta {
     flex-direction: row;
+    justify-content: space-between;
     align-self: flex-start;
-    width:536px;
+    Width:100%;
   }
 
   .allyourfiles__input {
+    flex: 0 1 50%;
     letter-spacing: 1px;
     height: 45px;
-    width: 320px;
+    width: auto;
   }
 
   .allyourfiles__btn {
+    flex: 0 1 50%;
     font-weight: 700;
-    letter-spacing: 0.5; /*sketch*/
+    letter-spacing: 0.5;
     height: 45px;
-    width: 200px;
+    width: auto;
     margin-left: 16px;
   }
 
   .allyourfiles__img {
-    flex: 0 0 600px;
-    height: 474px;
-    padding-right: 80px;
+    flex: 1 1 auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+    padding-right: 24px;
   }
 
   .curve_img {
@@ -299,3 +304,9 @@
     margin: 16px 0 0;
   }
 }/*END @media screen and (min-width:600px)*/
+
+@media screen and (min-width:768px) and (max-width:1300px){
+.allyourfiles_h1{
+  font-size:30px;
+}
+} /* END @media screen and (min-width:768px) and (max-width:1300px){*/
