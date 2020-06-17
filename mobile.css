@@ -9,6 +9,10 @@
     text-decoration: none;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   .main-header {
     position: relative;
     height: 48px;
