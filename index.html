@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" href="images/favicon-32x32.png"> <!--TODO matt-->
   <link rel="stylesheet" href="mobile.css">
   <link rel="stylesheet" href="tablet.css">
-    <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="desktop.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
@@ -34,14 +34,17 @@
   <main>
     <article class="allyourfiles">
       <div class="allyourfiles__textbox">
-        <h1 class="allyourfiles_h1">All your files in one secure location, accessible anywhere.</h1>
+        <h1 class="allyourfiles__h1">All your files in one secure location, accessible anywhere.</h1>
         <p class="allyourfiles__textbox-txt"> Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
         <div class="allyourfiles_cta">
           <input class="allyourfiles__input" type="text" title="signup" aria-label="email input" name="article-signup" value="Enter your email... ">
           <button class="allyourfiles__btn" type="button" name="button">Get Started</button>
         </div>
       </div>
-      <img class="allyourfiles__img" src="images/illustration-1.svg" alt="Two carton characters in business attire putting lots of large documents into giant folder">
+      <div class="allyourfiles__imgbox">
+        <img class="allyourfiles__img" src="images/illustration-1.svg" alt="Two carton characters in business attire putting lots of large documents into giant folder">
+      </div>
+
     </article>
 
     <picture>
@@ -49,7 +52,7 @@
         <source class="curve_img" media="(min-width: 601px)" srcset="images/bg-curve-desktop.svg 1440w"> -->
 
       <!-- <source class="curve_img" media="(max-width: 600px)" srcset="images/bg-curve-mobile.svg"> -->
-      <source class="curve_img" media="(min-width: 600px)" srcset="images/bg-curve-desktop.svg">
+      <source class="curve_img" media="(min-width: 768px)" srcset="images/bg-curve-desktop.svg">
       <img class="curve_img" src="images/bg-curve-mobile.svg" alt="">
     </picture>
 
