@@ -1,18 +1,57 @@
 @media screen and (min-width:620px) and (max-width:767px){
   .allyourfiles__h1 {font-size: 32px;}
+  .allyourfiles__textbox-txt {font-size: 16px;}
 }
 
 @media screen and (min-width:768px) and (max-width:949px){
   .allyourfiles__h1 {font-size: 40px;}
+  .allyourfiles__textbox-txt {font-size: 16px;}
 }
 
 @media screen and (min-width:950px) and (max-width:999px){
-  .allyourfiles__h1 {font-size: 40px;}
+  .allyourfiles__h1 {
+    font-size:40px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .allyourfiles__textbox-txt {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width:1000px) and (max-width:1439px) {
-  .allyourfiles__h1 {font-size: 30px;}
+  .allyourfiles__h1 {
+    font-size: 26px;
+    text-align:center
+  }
+  .allyourfiles__textbox-txt {
+    text-align:center;
+    padding-right:0}
 }
+
+@media screen and (min-width:1200px) and (max-width:1439px) {
+  .allyourfiles__h1 {
+    font-size: 32px;
+    text-align:center
+  }
+  .allyourfiles__textbox-txt {
+    font-size:16px;
+    text-align:center;
+    padding-right:0}
+}
+
+@media screen and (min-width:1318px) and (max-width:1439px) {
+  .allyourfiles__h1 {
+    font-size: 40px;
+    text-align:left;
+  }
+  .allyourfiles__textbox-txt {
+    font-size:16px;
+    text-align:left;
+    padding-right:0}
+}
+
+
 
 
 
