@@ -99,15 +99,14 @@
 
   .stayproductive {
     flex-direction: row;
-    /* justify-content: flex-start; */
     height: 670px;
     margin-bottom: 0;
   }
 
   .stayproductive__txtbox {
-    flex: 0 0 700px;
+    flex: 0 1 auto;
     order: 1;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 24px;
   }
 
   .stayproductive__h2 {
@@ -165,25 +164,21 @@
     padding: 50px 34px 0 33px;
     margin-bottom: 15px;
   }
-
   .stayproductive__card-img {
     border-radius: 50%;
     height: 32px;
     width: 32px;
     margin-left: 33px;
   }
-
   .stayproductive__card-signaturebox-textbox {
     flex: 0 0 300px;
   }
-
   .stayproductive__card-name {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.55px;
     margin: 0 0 0 8px;
   }
-
   .stayproductive__card-title {
     font-size: 8px;
     letter-spacing: 0.55px;
