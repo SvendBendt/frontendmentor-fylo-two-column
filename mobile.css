@@ -352,6 +352,7 @@
   .footer__contact {
     flex: 0 0 87px;
     padding: 0;
+    list-style:none; /*Why is this not inheritted from footer?*/
   }
 
   .footer__left-nav {

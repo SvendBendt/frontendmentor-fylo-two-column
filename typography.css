@@ -1,0 +1,35 @@
+@media screen and (min-width:620px) and (max-width:767px){
+  .allyourfiles__h1 {font-size: 32px;}
+}
+
+@media screen and (min-width:768px) and (max-width:949px){
+  .allyourfiles__h1 {font-size: 40px;}
+}
+
+@media screen and (min-width:950px) and (max-width:999px){
+  .allyourfiles__h1 {font-size: 40px;}
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .allyourfiles__h1 {font-size: 30px;}
+}
+
+
+
+/*
+.main-nav__item {font-size: 12px;}
+.allyourfiles__h1 {font-size: 24px;}
+.allyourfiles__textbox-txt {font-size: 14px;}
+.stayproductive__h2 {font-size: 16px;}
+.stayproductive__link {font-size: 12px;}
+.stayproductive__card {font-size: 10px;}
+.stayproductive__quotesign {font-size: 35.39px}
+.stayproductive__card-name {font-size: 9px;}
+.stayproductive__card-title {font-size: 6px;}
+.cta-headline { font-size: 18px}
+.cta__signup-input {font-size: 10px;}
+.cta__signup-btn {font-size: 10px}
+.social-icon {font-size: 12px}
+.fa-instagram {font-size: 14px}
+.attribution {font-size: 11px;}
+*/
