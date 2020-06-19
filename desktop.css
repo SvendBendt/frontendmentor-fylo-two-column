@@ -123,11 +123,13 @@
   .stayproductive__txt {
     font-size: 16px;
     margin: 0 170px 16px 0;
+    text-align:left;
   }
 
   .stayproductive__txt2 {
     font-size: 16px;
     margin: 0 170px 15px 0;
+    text-align:left;
   }
 
   .stayproductive__link {
