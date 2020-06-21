@@ -101,7 +101,7 @@
 
   .stayproductive {
     flex-direction: row;
-    height: 600px;  /*OVerføres*/
+    height: auto;  /*OVerføres*/
     margin-bottom: 0;
   }
 
@@ -152,14 +152,15 @@
     font-size: 13px;
     width: 356px;
     height: 215px;
-    margin: 0;
+    margin:0;
+    margin-bottom:24px; /*Overføres*/
   }
 
   .stayproductive__quotesign {
     font-size: 48px;
     margin: 0;
     top: 11px;
-    margin: 0 0 0 33px;
+    margin: 0 0 30px 0; /*Overføres*/
   }
 
   .stayproductive__card-txt {
