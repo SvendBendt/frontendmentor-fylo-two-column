@@ -5,6 +5,9 @@
     margin: 0 auto;
   }
 
+  @media screen and (min-width:1000px) and (max-width:1439px){
+    body {width: 100%;}}
+
   a {
     text-decoration: none;
   }
@@ -261,7 +264,7 @@
     margin: 40px 27px 88px 28px;
   }
 
-  .cta {
+.cta {
     box-sizing: border-box;
     display: flex;
     background-color: #585989;
