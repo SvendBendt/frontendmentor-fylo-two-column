@@ -60,7 +60,7 @@
     padding-right: 40px;
   }
 
-  .allyourfiles_cta {
+  .allyourfiles__cta {
     flex-direction: row;
     align-self: flex-start;
     width: 536px;
@@ -131,6 +131,10 @@
     margin: 0 170px 15px 0;
     text-align:left;
   }
+
+.stayproductive__link-box{
+  text-align:left;
+}
 
   .stayproductive__link {
     font-size: 16px;

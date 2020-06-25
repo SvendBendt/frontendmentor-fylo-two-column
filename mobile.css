@@ -123,11 +123,26 @@ img {
   margin: 0 43px 32px 36px;
 }
 
-.allyourfiles_cta {
+@media screen and (min-width:480px) and (max-width:1000px){
+.allyourfiles__textbox-txt {
+    margin: 0 43px 32px 36px;
+  }
+}
+
+
+
+.allyourfiles__cta {
   /*underscore ?*/
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (min-width:700px) and (max-width:1000px){
+  .allyourfiles__cta {
+      flex-direction: row;
+  }
+}
+
 
 .allyourfiles__input {
   box-sizing: border-box;
@@ -140,6 +155,12 @@ img {
   height: 40px;
   padding: 6px 0 0 20px;
   margin: 0 0 16px 0;
+}
+
+@media screen and (min-width:700px) and (max-width:1000px){
+  .allyourfiles__input{
+    margin:0 20px 0 0;
+  }
 }
 
 .allyourfiles__btn {
@@ -176,7 +197,7 @@ img {
   }
 }
 
-.allyourfiles__imgbox {
+.allyourfiles__imgbox { /*TODO Should actually be above .image*/
   order: 1;
   flex: 0 0 225px;
   height: 225px;
@@ -189,15 +210,24 @@ img {
     flex: 0.5 0 auto;
     height:initial;
     text-align: center; /*?*/
+    margin: 0 27px 40px;
   }
 }
-
 
 .curve_img {
   margin: 0 0 0 0;
   display: block;
   width: 375px;
 }
+
+@media screen and (min-width:480px) and (max-width:1000px){
+  .curve_img {
+    width: 100%;
+    margin-bottom:-5px} /*Hack to avoid flickiering white line*/
+    }
+
+
+
 
 .stayproductive {
   display: flex;
@@ -206,6 +236,12 @@ img {
   /* justify-content: flex-start; */
   height: 908px;
   margin-bottom: 0;
+}
+
+@media screen and (min-width:480px) and (max-width:1000px){
+  .stayproductive {
+    height:auto;
+  }
 }
 
 @media screen and (min-width:1000px) and (max-width:1439px){
@@ -223,6 +259,13 @@ img {
   margin: 0;
 }
 
+@media screen and (min-width:480px) and (max-width:1000px){
+  .stayproductive__txtbox{
+    flex: 1 1 auto;
+    margin-bottom:80px;
+  }
+}
+
 .stayproductive__h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -231,6 +274,13 @@ img {
   /*sketch*/
   color: #07043B;
   margin: 0 0 24px 0;
+}
+
+@media screen and (min-width:480px){
+  .stayproductive__h2 {
+    font-family: 'Open sans', sans-serif;
+    font-size:24px;
+  }
 }
 
 @media screen and (min-width:1000px) and (max-width:1439px){
@@ -242,23 +292,46 @@ img {
   }
 }
 
-.stayproductive__txt {
+.stayproductive__txt, .stayproductive__txt2 {
   margin: 0 35px 16px 20px;
 }
 
-.stayproductive__txt2 {
-  margin: 0 35px 32px 20px;
+.stayproductive__txt2{
+  margin-bottom:33px; /*TODO Move margin to link div to save one class?*/
+}
+
+@media screen and (min-width:480px) and (max-width:1000px){
+.stayproductive__txt, .stayproductive__txt2 {
+  text-align:center;
+  margin: 0  36px 16px;
+}
 }
 
 /* Design jpg: text aligned left, sketch: text aligned center */
+
+.stayproductive__link-box{
+  text-align:center;
+  margin-bottom:39px;
+}
+
+@media screen and (min-width:480px) and (max-width:1000px){
+  .stayproductive__link-box{
+    text-align:center;
+  }
+}
+
+
+
 .stayproductive__link {
   font-size: 12px;
   text-align: left;
   color: #3DA08F;
   letter-spacing: 0;
-  padding-left: 123px;
+  /* padding-left: 123px; */
   margin-right: 2px;
 }
+
+
 
 .stayproductive__arrow {
   /* Design:12px, jpg:18px*/
@@ -271,7 +344,13 @@ img {
   border-top: 1px solid #3DA08F;
   width: 130px;
   height: 1px;
-  margin: 4px auto 40px;
+  margin: 4px auto 0;
+}
+
+@media screen and (min-width:480px) and (max-width:1000px){
+  .stayproductive__underline{
+    width:150px;
+  }
 }
 
 .stayproductive__card {
@@ -364,6 +443,16 @@ img {
   margin: 40px 27px 88px 28px;
 }
 
+@media screen and (min-width:480px) and (max-width:1000px){
+  .stayproductive__img {
+      /* flex:0 0 409px; */
+    object-fit: contain;
+    height:initial;
+    max-height:409px;
+    margin:70px 27px 35px;
+  }
+}
+
 @media screen and (min-width:1000px) and (max-width:1439px){
 .stayproductive__img {
   max-width: 100%;
@@ -371,13 +460,6 @@ img {
   margin: 89px 24px 0 24px;
   }
 }
-
-@media screen and (min-width:1000px) and (max-width:1439px){}
-  @media screen and (min-width:1000px) and (max-width:1439px){}
-    @media screen and (min-width:1000px) and (max-width:1439px){}
-      @media screen and (min-width:1000px) and (max-width:1439px){}
-        @media screen and (min-width:1000px) and (max-width:1439px){}
-
 
 .cta {
   box-sizing: border-box;
