@@ -454,23 +454,26 @@ img {
 }
 
 @media screen and (min-width:1000px) and (max-width:1439px){
-.stayproductive__img {
-  max-width: 100%;
-  height: 409px;
-  margin: 89px 24px 0 24px;
+  .stayproductive__img {
+    max-width: 100%;
+    height: 409px;
+    margin: 89px 24px 0 24px;
+    }
   }
-}
 
 .cta {
   box-sizing: border-box;
   display: flex;
   background-color: #585989;
   flex-direction: column;
+  text-align:center;
   color: #FFFFFF;
   line-height: 1.5;
   height: 345px;
   padding-top: 52px;
 }
+
+
 
 .cta__textbox {
   flex: 0;
@@ -487,6 +490,17 @@ img {
   margin: 0 59px 24px 36px;
 }
 
+@media screen and (min-width:480px) and (max-width:1000px){
+  .cta-txt {
+    margin: 0 36px 24px;
+  }
+}
+
+
+
+
+
+
 .cta-headline {
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
@@ -494,7 +508,8 @@ img {
   font-weight: 700;
   letter-spacing: 0;
   line-height: 1.5;
-  margin: 0px 85px 16px 86px;
+  /* margin: 0px 85px 16px 86px; */ /*PP*/
+  margin: 0 0 16px;
 }
 
 .cta__signup-input {
@@ -511,7 +526,8 @@ img {
   height: 32px;
   width: 240px;
   padding: 11px 0 10px 8px;
-  margin: 0 69px 8px 66px;
+  /* margin: 0 69px 8px 66px; */ /*For PP*/
+  margin: 0 auto 8px;
 }
 
 .cta__signup-btn {
