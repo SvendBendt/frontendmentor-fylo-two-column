@@ -197,7 +197,6 @@
   }
 
   .footer {
-    color: #ffffff;
     height: 391px;
     padding: 105.61px 0 0 77px;
   }
@@ -265,7 +264,6 @@
   }
 
   .attribution {
-    color: #ffffff;
     margin: 16px 0 0;
   }
 }/*END @media screen and (min-width:600px)*/ /* Getting pretty verbose, but hey, what can you do */

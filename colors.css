@@ -1,0 +1,124 @@
+.main-nav__item {
+  color: #07043b;
+}
+
+.allyourfiles__h1 {
+  color: #07043b;
+}
+
+.allyourfiles__textbox-txt {
+  color: hsl(243, 87.3%, 12.4%); /*IE*/
+}
+
+.allyourfiles__input {
+  color: #bfbfbf;
+}
+
+.allyourfiles__btn {
+  background-color: #3065f8;
+  color: white;
+}
+
+.stayproductive {
+  background-color: #f8f8fe;
+}
+
+.stayproductive__h2 {
+  color: #07043b;
+}
+
+.stayproductive__link {
+  color: #3da08f;
+}
+
+.stayproductive__underline {
+  border-top: 1px solid #3da08f; /*split*/
+}
+
+.stayproductive__card {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 5px hsla(0, 0%, 22%, 0.05); /*Again doh*/ /*IE*/
+  color: #07043b;
+}
+
+.stayproductive__quotesign {
+  color: #07043b;
+}
+
+.stayproductive__card-name {
+  color: #07043b;
+}
+
+.cta {
+  background-color: #585989;
+  color: #ffffff;
+}
+
+
+.cta-txt {
+/*empty?*/}
+
+.cta-headline {
+  color: #ffffff;
+}
+
+.cta__signup-input {
+  background-color: #ffffff;
+  color: #c0c0c0;
+  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /*split?*/
+}
+
+.cta__signup-btn {
+  background-color: #3065f8;
+  color: #ffffff;
+  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /*Split?*/
+}
+
+.footer {
+  background-color: #07043b;
+  /*No color?*/
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .footer {
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .footer {
+    color: #ffffff;
+  }
+}
+
+.footer-logo {
+  filter: brightness(0) invert(1);
+}
+
+.footer__content {
+  color: #ffffff;
+}
+
+.social-icon {
+  border: solid 0.8px hsl(222, 36.2%, 90.8%); /*split?*/
+}
+
+.attribution {
+  color: #ffffff;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .attribution {
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .attribution {
+    color: #ffffff;
+  }
+}

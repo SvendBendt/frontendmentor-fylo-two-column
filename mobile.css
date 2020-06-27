@@ -54,7 +54,6 @@ img {
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
   font-weight: 400;
-  color: #07043B;
   text-align: center;
 }
 
@@ -100,7 +99,6 @@ img {
   /*sketch*/
   line-height: 1.5;
   text-align: center;
-  color: #07043B;
   margin: 0 27px 24px 28px;
 }
 
@@ -115,7 +113,6 @@ img {
 }
 
 .allyourfiles__textbox-txt {
-  color: hsl(243, 87.3%, 12.4%);
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0;
@@ -146,7 +143,6 @@ img {
 
 .allyourfiles__input {
   box-sizing: border-box;
-  color: #bfbfbf;
   letter-spacing: 1px;
   border-radius: 2px;
   border-style: solid;
@@ -166,8 +162,6 @@ img {
 .allyourfiles__btn {
   border: none;
   border-radius: 2px;
-  background-color: #3065f8;
-  color: white;
   letter-spacing: 1px;
   vertical-align: middle;
   height: 40px;
@@ -231,7 +225,6 @@ img {
 
 .stayproductive {
   display: flex;
-  background-color: #F8F8FE;
   flex-direction: column;
   /* justify-content: flex-start; */
   height: 908px;
@@ -272,7 +265,6 @@ img {
   text-align: center;
   letter-spacing: 0.15px;
   /*sketch*/
-  color: #07043B;
   margin: 0 0 24px 0;
 }
 
@@ -325,7 +317,6 @@ img {
 .stayproductive__link {
   font-size: 12px;
   text-align: left;
-  color: #3DA08F;
   letter-spacing: 0;
   /* padding-left: 123px; */
   margin-right: 2px;
@@ -354,7 +345,6 @@ img {
 }
 
 .stayproductive__card {
-  background-color: #ffffff;
   border-radius: 6px;
   box-shadow: 0 0 10px 5px hsla(0, 0%, 22%, 0.05);
   font-size: 10px;
@@ -362,7 +352,6 @@ img {
   letter-spacing: 0.5px;
   width: 280px;
   height: 169.1px;
-  color: #07043B;
   position: relative;
   margin: 0 auto;
 }
@@ -380,7 +369,6 @@ img {
 .stayproductive__quotesign {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 35.39px;
-  color: #07043B;
   display: inline-block;
   line-height: 1.5;
   position: absolute;
@@ -421,7 +409,6 @@ img {
 }
 
 .stayproductive__card-name {
-  color: #07043B;
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.80px;
@@ -464,10 +451,8 @@ img {
 .cta {
   box-sizing: border-box;
   display: flex;
-  background-color: #585989;
   flex-direction: column;
   text-align:center;
-  color: #FFFFFF;
   line-height: 1.5;
   height: 345px;
   padding-top: 52px;
@@ -502,7 +487,6 @@ img {
 
 
 .cta-headline {
-  color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -514,9 +498,7 @@ img {
 
 .cta__signup-input {
   display: block;
-  background-color: #ffffff;
   box-sizing: border-box;
-  color: #C0C0C0;
   font-size: 10px;
   letter-spacing: 0;
   border-radius: 1.47px;
@@ -534,8 +516,6 @@ img {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 10px;
-  background-color: #3065f8;
-  color: #ffffff;
   letter-spacing: 0;
   border: none;
   border-radius: 3.13px;
@@ -546,7 +526,6 @@ img {
 }
 
 .footer {
-  background-color: #07043B;
   box-sizing: border-box;
   height: 683px;
   padding: 64.72px 39px 0 39px;
@@ -562,7 +541,6 @@ img {
 .footer__content {
   display: flex;
   flex-direction: column;
-  color: #ffffff;
 }
 
 .footer__contact {
@@ -630,12 +608,7 @@ img {
 }
 
 .attribution {
-  color: #FFFFFF;
   font-size: 11px;
   text-align: center;
   margin: 0;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
