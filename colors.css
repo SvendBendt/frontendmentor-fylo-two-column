@@ -65,13 +65,13 @@
 .cta__signup-input {
   background-color: #ffffff;
   color: #c0c0c0;
-  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /*split?*/
+  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /*split?*/ /*IE*/
 }
 
 .cta__signup-btn {
   background-color: #3065f8;
   color: #ffffff;
-  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /*Split?*/
+  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /*Split?*/ /*IE*/
 }
 
 .footer {
@@ -100,7 +100,7 @@
 }
 
 .social-icon {
-  border: solid 0.8px hsl(222, 36.2%, 90.8%); /*split?*/
+  border: solid 0.8px hsl(222, 36.2%, 90.8%); /*split?*/ /*IE*/
 }
 
 .attribution {
@@ -108,7 +108,7 @@
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%); /*IE*/
 }
 
 @media screen and (min-width:1000px) and (max-width:1439px){
