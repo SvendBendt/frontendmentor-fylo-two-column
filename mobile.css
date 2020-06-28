@@ -332,7 +332,7 @@ img {
 }
 
 .stayproductive__underline {
-  border-top: 1px solid #3DA08F;
+  border-top: 1px solid #3DA08F; /*Move*/
   width: 130px;
   height: 1px;
   margin: 4px auto 0;
