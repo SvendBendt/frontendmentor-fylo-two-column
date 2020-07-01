@@ -27,7 +27,7 @@ img {
   margin: 0 24px 74px 24px;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .main-header {
     height: 49px;
     padding-top: 65px;
@@ -37,9 +37,10 @@ img {
 
 .header-logo {
   height: 23.65px;
-}/*Sketch, logo split in two*/
+}
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+/*Sketch, logo split in two*/
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .header-logo {
     height: 49px;
   }
@@ -58,7 +59,7 @@ img {
   margin: 15px 0 15px 0;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .main-nav {
     top: 63px;
     height: 19px;
@@ -74,13 +75,13 @@ img {
   margin-bottom: 90px;
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
+@media screen and (min-width:480px) and (max-width:1000px) {
   .allyourfiles {
-  height: initial;
+    height: initial;
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .allyourfiles {
     flex-direction: row;
     justify-content: center;
@@ -99,7 +100,7 @@ img {
   margin: 0;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .allyourfiles__textbox {
     flex: 0 1 auto;
     flex-direction: column;
@@ -112,7 +113,7 @@ img {
   margin: 0 27px 24px 28px;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .allyourfiles__h1 {
     margin: 0;
   }
@@ -122,16 +123,13 @@ img {
   margin: 0 43px 32px 36px;
 }
 
-
-
-
-@media screen and (min-width:480px) and (max-width:1000px){
-.allyourfiles__textbox-txt {
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .allyourfiles__textbox-txt {
     margin: 0 43px 32px 36px;
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .allyourfiles__textbox-txt {
     margin: 15px 0 25px 0;
     padding-right: 40px;
@@ -139,18 +137,17 @@ img {
 }
 
 .allyourfiles__cta {
-  /*underscore ?*/
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (min-width:700px) and (max-width:1000px){
+@media screen and (min-width:700px) and (max-width:1000px) {
   .allyourfiles__cta {
-      flex-direction: row;
+    flex-direction: row;
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .allyourfiles__cta {
     flex-direction: row;
     justify-content: flex-start;
@@ -159,51 +156,45 @@ img {
   }
 }
 
+.allyourfiles__imgbox {
+  order: 1;
+  flex: 0 0 225px;
+  height: 225px;
+  margin: 0 auto 40px;
+}
+
 .allyourfiles__img {
-  /* order: 1;
-    flex: 0 0 225px;
-    padding: 0;
-    margin: 0 auto 40px; */
   height: 225px;
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
+@media screen and (min-width:480px) and (max-width:1000px) {
   .allyourfiles__img {
-    height:initial;
-    max-height:409px;
+    height: initial;
+    max-height: 409px;
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .allyourfiles__img {
     height: 409px;
   }
 }
 
-.allyourfiles__imgbox { /*TODO Should actually be above .image*/
-  order: 1;
-  flex: 0 0 225px;
-  height: 225px;
-  /* padding: 0; */
-  margin: 0 auto 40px;
-}
-
-@media screen and (min-width:480px) and (max-width:1000px){
-  .allyourfiles__imgbox{
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .allyourfiles__imgbox {
     flex: 0.5 0 auto;
-    height:initial;
-    text-align: center; /*?*/
+    height: initial;
+    text-align: center;
+    /*?*/
     margin: 0 27px 40px;
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .allyourfiles__imgbox {
     flex: 0 0 auto;
     height: 474px;
     margin: 0 24px;
-    /* max-width:100%;
-    max-height:100%; */
   }
 }
 
@@ -213,36 +204,27 @@ img {
   width: 375px;
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
+@media screen and (min-width:480px) and (max-width:1439px) {
   .curve_img {
     width: 100%;
-    margin-bottom:-5px} /*Hack to avoid flickiering white line*/
-    }
-
-    @media screen and (min-width:1000px) and (max-width:1439px){
-      .curve_img {
-        width: 1440px; /*swdinirly wrong one off lol*/
-      }
-    }
-
-
-
+    margin-bottom: -5px /*Hack to avoid flickiering white line*/
+  }
+}
 
 .stayproductive {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
   height: 908px;
   margin-bottom: 0;
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
+@media screen and (min-width:480px) and (max-width:1000px) {
   .stayproductive {
-    height:auto;
+    height: auto;
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive {
     flex-direction: row;
     height: auto;
@@ -255,7 +237,14 @@ img {
   margin: 0;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .stayproductive__txtbox {
+    flex: 1 1 auto;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__txtbox {
     flex: 0 1 auto;
     order: 1;
@@ -263,73 +252,63 @@ img {
   }
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
-  .stayproductive__txtbox{
-    flex: 1 1 auto;
-    margin-bottom:80px;
-  }
-}
-
 .stayproductive__h2 {
   margin: 0 0 24px 0;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__h2 {
     margin: 30px 0 30px 0;
   }
 }
 
+/*Fix this major mess below*/
 .stayproductive__txt, .stayproductive__txt2 {
   margin: 0 35px 16px 20px;
 }
 
-.stayproductive__txt2{
-  margin-bottom:33px; /*TODO Move margin to link div to save one class?*/
-}
-
-@media screen and (min-width:480px) and (max-width:1000px){
-.stayproductive__txt, .stayproductive__txt2 {
-  margin: 0  36px 16px;
-}
-}
-
-@media screen and (min-width:1000px) and (max-width:1439px){
-  .stayproductive__txt {
-    margin: 0 170px 16px 0;
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .stayproductive__txt, .stayproductive__txt2 {
+    margin: 0 36px 16px;
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .stayproductive__txt {
+    margin: 0 170px 16px 0;
+  }
+
   .stayproductive__txt2 {
     margin: 0 170px 15px 0;
   }
 }
 
-.stayproductive__link-box{
-  margin-bottom:39px;
+.stayproductive__txt2 {
+  margin-bottom: 33px;
+  /*TODO Move margin to link div to save one class?*/
+}
+
+.stayproductive__link-box {
+  margin-bottom: 39px;
 }
 
 .stayproductive__link {
-  /* padding-left: 123px; */
   margin-right: 2px;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__link {
     padding-left: 0;
   }
 }
 
-
 .stayproductive__arrow {
-  /* Design:12px, jpg:18px*/
   vertical-align: middle;
   display: inline-block;
   /* martini-top:a-ok(y); */
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__arrow {
     /* vertical-align: middle; */
     height: 18px;
@@ -339,13 +318,13 @@ img {
 }
 
 .stayproductive__underline {
-  border-top: 1px solid #3DA08F; /*Move*/
+  border-top: 1px solid #3DA08F;/*Move..?*/
   width: 130px;
   height: 1px;
   margin: 4px auto 0;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__underline {
     width: 166px;
     height: 1px;
@@ -353,9 +332,9 @@ img {
   }
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
-  .stayproductive__underline{
-    width:150px;
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .stayproductive__underline {
+    width: 150px;
   }
 }
 
@@ -368,12 +347,12 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__card {
     width: 356px;
     height: 215px;
-    margin:0 0 24px 0;
-    /* margin-bottom:24px; */
+    margin: 0 0 24px 0;
+    /* margin-bottom:24px; full declaration or not?*/
   }
 }
 
@@ -384,8 +363,7 @@ img {
   margin: 0 0 0 26px;
 }
 
-
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__quotesign {
     top: 11px;
     margin: 0 0 30px 0;
@@ -397,7 +375,7 @@ img {
   margin-bottom: 11px;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__card-txt {
     padding: 50px 34px 0 33px;
     margin-bottom: 15px;
@@ -415,7 +393,7 @@ img {
   margin-left: 26px;
 }
 
-  @media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__card-img {
     border-radius: 50%;
     height: 32px;
@@ -429,17 +407,17 @@ img {
   vertical-align: middle;
 }
 
-
-  @media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__card-signaturebox-textbox {
     flex: 0 0 300px;
   }
 }
+
 .stayproductive__card-name {
   margin: 0 0 1px 8px;
 }
 
-  @media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__card-name {
     margin: 0 0 0 8px;
   }
@@ -449,30 +427,29 @@ img {
   margin: 0 0 0 8px;
 }
 
-  .stayproductive__img {
+.stayproductive__img {
   order: 1;
   flex: 0 0 241px;
   height: 241px;
   margin: 40px 27px 88px 28px;
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
+@media screen and (min-width:480px) and (max-width:1000px) {
   .stayproductive__img {
-      /* flex:0 0 409px; */
     object-fit: contain;
-    height:initial;
-    max-height:409px;
-    margin:70px 27px 35px;
+    height: initial;
+    max-height: 409px;
+    margin: 70px 27px 35px;
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__img {
     max-width: 100%;
     height: 409px;
     margin: 89px 24px 0 24px;
-    }
   }
+}
 
 .cta {
   box-sizing: border-box;
@@ -481,8 +458,6 @@ img {
   height: 345px;
   padding-top: 52px;
 }
-
-
 
 .cta__textbox {
   flex: 0;
@@ -496,17 +471,16 @@ img {
   margin: 0 59px 24px 36px;
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
+@media screen and (min-width:480px) and (max-width:1000px) {
   .cta-txt {
     margin: 0 36px 24px;
   }
 }
 
 .cta-headline {
-  /* margin: 0px 85px 16px 86px; */ /*PP*/
+  /* PP margin: 0px 85px 16px 86px; */
   margin: 0 0 16px;
 }
-
 
 .footer {
   box-sizing: border-box;
@@ -515,7 +489,8 @@ img {
 }
 
 .footer-logo {
-  filter: brightness(0) invert(1); /*Move to colors?*/
+  filter: brightness(0) invert(1);
+  /*Move to colors?*/
   display: block;
   height: 51.22px;
   margin: 0 0 24px 0;
@@ -530,7 +505,6 @@ img {
   flex: 0 0 87px;
   padding: 0;
   list-style: none;
-  /*Why is this not inheritted from footer?*/
 }
 
 .footer__left-nav {
