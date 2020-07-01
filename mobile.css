@@ -561,7 +561,7 @@ img {
 .cta__signup-input {
   display: block;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 10px;  /*Hmm, move to fonts?*/
   letter-spacing: 0;
   border-radius: 1.47px;
   border-width: 0;
@@ -594,7 +594,7 @@ img {
 }
 
 .footer-logo {
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1); /*Move to colors?*/
   display: block;
   height: 51.22px;
   margin: 0 0 24px 0;
@@ -627,7 +627,6 @@ img {
 
 .footer__contact--txt {
   display: inline;
-  line-height: 1;
 }
 
 .footer__phone-icon {
@@ -665,12 +664,9 @@ img {
 }
 
 .fa-instagram {
-  font-size: 14px;
   padding-top: 6px;
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
   margin: 0;
 }
