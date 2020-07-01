@@ -1,0 +1,230 @@
+body {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav__item {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .main-nav__item {
+    font-size: 16px;
+    letter-spacing: 0px; /*Nece?*/
+  }
+}
+
+.allyourfiles__h1 {
+  font-family: 'Open sans', sans-serif;
+  /*Open sans in mobile - design-choice or mistake?*/
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.7px;
+  /*sketch*/
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .allyourfiles__h1 {
+    font-family: 'Raleway', sans-serif; /*font-family must stay because annoying reasons*/
+    font-size:40px;
+    letter-spacing: 0;
+    text-align:left;
+  }
+}
+
+.allyourfiles__textbox-txt {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .allyourfiles__textbox-txt {
+    font-size: 17px;
+    line-height: 1.412;
+    letter-spacing: 0.53px;
+    text-align: left;
+  }
+}
+
+.stayproductive__txtbox {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.stayproductive__h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  /*sketch*/
+}
+
+@media screen and (min-width:480px){
+  .stayproductive__h2 {
+    font-family: 'Open sans', sans-serif;
+    font-size:24px;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .stayproductive__h2 {
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 0.3px; /*Sketch: 0*/
+  }
+}
+
+@media screen and (min-width:480px) and (max-width:1000px){
+.stayproductive__txt, .stayproductive__txt2 {
+  text-align:center;
+}
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .stayproductive__txt {
+    font-size: 16px;
+  }
+}
+
+/* Design jpg: text aligned left, sketch: text aligned center */
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .stayproductive__txt2 {
+    font-size: 16px;
+  }
+}
+
+.stayproductive__link-box{
+  text-align:center;
+}
+
+@media screen and (min-width:480px) and (max-width:1000px){
+  .stayproductive__link-box{
+    text-align:center;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+.stayproductive__link-box{
+  text-align:left;
+}
+}
+
+
+.stayproductive__link {
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0;
+  /* padding-left: 123px; */
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .stayproductive__link {
+    font-size: 16px;
+  }
+}
+
+
+
+
+.stayproductive__card {
+  font-size: 10px;
+  line-height: 1.769;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .stayproductive__card {
+    font-size: 13px;
+  }
+}
+
+.stayproductive__quotesign {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 35.39px;
+  line-height: 1.5;
+}
+
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .stayproductive__quotesign {
+    font-size: 48px;
+  }
+}
+
+.stayproductive__card-txt {
+  letter-spacing: 0.38px;
+  line-height: 1.809;
+}
+
+.stayproductive__card-name {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.80px;
+  /*sketch wrong?*/
+}
+
+  @media screen and (min-width:1000px) and (max-width:1439px){
+  .stayproductive__card-name {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.55px;
+  }
+}
+
+.stayproductive__card-title {
+  font-size: 6px;
+  letter-spacing: 0.3px;
+  line-height: 1.966;
+}
+
+  @media screen and (min-width:1000px) and (max-width:1439px){
+  .stayproductive__card-title {
+    font-size: 8px;
+    letter-spacing: 0.55px;
+    line-height: 1.3;
+  }
+}
+
+.cta {
+  text-align:center;
+  line-height: 1.5;
+}
+
+.cta-txt {
+  font-size: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.cta-headline {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.footer__contact--txt {
+  line-height: 1;
+}
+
+.fa-instagram {
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
