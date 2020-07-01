@@ -1,0 +1,91 @@
+.allyourfiles__input {
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  width: 304px;
+  height: 40px;
+  padding: 6px 0 0 20px;
+  margin: 0 0 16px 0;
+}
+
+@media screen and (min-width:700px) and (max-width:1000px){
+  .allyourfiles__input{
+    margin:0 20px 0 0;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .allyourfiles__input {
+    flex: 0 1 50%;
+    height: 45px;
+    width: auto;
+    max-width: 320px;
+  }
+}
+
+.allyourfiles__btn {
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 1px; /*Component font etc stays for now*/
+  vertical-align: middle;
+  height: 40px;
+  width: 304px;
+  padding: 0 0 0 0; /*Huh?*/
+  margin: 0 0 0 0;
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px){
+  .allyourfiles__btn {
+    flex: 0 1 50%;
+    font-weight: 700;
+    letter-spacing: 0.5;
+    height: 45px;
+    width: auto;
+    max-width: 200px;
+    margin-left: 16px;
+  }
+}
+
+.cta__signup-input {
+  display: block;
+  box-sizing: border-box;
+  font-size: 10px;  /*Hmm, move to fonts?*/
+  letter-spacing: 0;
+  border-radius: 1.47px;
+  border-width: 0;
+  border-style: solid;
+  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16);
+  height: 32px;
+  width: 240px;
+  padding: 11px 0 10px 8px;
+  /* margin: 0 69px 8px 66px; */ /*For PP*/
+  margin: 0 auto 8px;
+}
+
+.cta__signup-btn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0;
+  border: none;
+  border-radius: 3.13px;
+  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16);
+  height: 32px;
+  width: 240px;
+  margin: 0 0 0 66px;
+}
+
+.social-icon {
+  border-radius: 50%;
+  border: solid 0.8px hsl(222, 36.2%, 90.8%);
+  box-sizing: border-box;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  height: 27px;
+  width: 27.06px;
+  padding-top: 6px;
+  margin: 0 7px 0 0;
+}
