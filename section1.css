@@ -1,0 +1,136 @@
+.allyourfiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 609px;
+  margin-bottom: 90px;
+}
+
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .allyourfiles {
+    height: initial;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .allyourfiles {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 474px;
+    margin-bottom: 45px;
+  }
+}
+
+.allyourfiles__textbox {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 320px;
+  order: 2;
+  align-items: center;
+  margin: 0;
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .allyourfiles__textbox {
+    flex: 0 1 auto;
+    flex-direction: column;
+    order: 1;
+    margin: 0 0 0 24px;
+  }
+}
+
+.allyourfiles__h1 {
+  margin: 0 27px 24px 28px;
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .allyourfiles__h1 {
+    margin: 0;
+  }
+}
+
+.allyourfiles__textbox-txt {
+  margin: 0 43px 32px 36px;
+}
+
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .allyourfiles__textbox-txt {
+    margin: 0 43px 32px 36px;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .allyourfiles__textbox-txt {
+    margin: 15px 0 25px 0;
+    padding-right: 40px;
+  }
+}
+
+.allyourfiles__cta {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+  .allyourfiles__cta {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .allyourfiles__cta {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    Width: 100%;
+  }
+}
+
+.allyourfiles__imgbox {
+  order: 1;
+  flex: 0 0 225px;
+  height: 225px;
+  margin: 0 auto 40px;
+}
+
+.allyourfiles__img {
+  height: 225px;
+}
+
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .allyourfiles__img {
+    height: initial;
+    max-height: 409px;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .allyourfiles__img {
+    height: 409px;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .allyourfiles__imgbox {
+    flex: 0.5 0 auto;
+    height: initial;
+    text-align: center;
+    /*?*/
+    margin: 0 27px 40px;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1439px) {
+  .allyourfiles__imgbox {
+    flex: 0 0 auto;
+    height: 474px;
+    margin: 0 24px;
+  }
+}
+
+.curve_img {
+  margin: 0 0 0 0;
+  display: block;
+  width: 375px;
+}
