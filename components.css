@@ -25,6 +25,14 @@
   }
 }
 
+@media screen and (min-width:1440px) {
+
+  .allyourfiles__input {
+    flex: 0 0 320px;
+    letter-spacing: 1px; /*TODO Move?*/
+  }
+}
+
 .allyourfiles__btn {
   border: none;
   border-radius: 2px;
@@ -47,6 +55,11 @@
     margin-left: 16px;
   }
 }
+
+@media screen and (min-width:1440px) {
+  .allyourfiles__btn {
+    flex: 0 0 200px;
+  }
 
 .cta__signup-input {
   display: block;

@@ -21,7 +21,13 @@
 @media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive {
     flex-direction: row;
-    height: auto;
+    height: auto; /*Fjernes ved at udvide ovenstående query?*/
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .stayproductive {
+    height: 670px;
   }
 }
 
@@ -46,6 +52,13 @@
   }
 }
 
+@media screen and (min-width:1440px) {
+  .stayproductive__txtbox {
+    flex: 0 0 700px;
+    margin: 0 0 0 80px;
+  }
+}
+
 .stayproductive__h2 {
   margin: 0 0 24px 0;
 }
@@ -53,6 +66,12 @@
 @media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__h2 {
     margin: 30px 0 30px 0;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .stayproductive__h2 {
+    margin: 58px 0 30px 0;
   }
 }
 

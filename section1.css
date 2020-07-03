@@ -22,6 +22,14 @@
   }
 }
 
+@media screen and (min-width:1440px) {
+    .allyourfiles {
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 164px;
+  }
+}
+
 .allyourfiles__textbox {
   display: flex;
   flex-direction: column;
@@ -40,11 +48,20 @@
   }
 }
 
+@media screen and (min-width:1440px) {
+  .allyourfiles__textbox {
+    flex: 0 0 640px;
+    height: 370px;
+    margin: 77px 0 2px 80px;
+  }
+}
+
+
 .allyourfiles__h1 {
   margin: 0 27px 24px 28px;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px) {
+@media screen and (min-width:1000px) and /*(max-width:1439px)*/ {
   .allyourfiles__h1 {
     margin: 0;
   }
@@ -60,7 +77,7 @@
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px) {
+@media screen and (min-width:1000px)/* and (max-width:1439px)*/ {
   .allyourfiles__textbox-txt {
     margin: 15px 0 25px 0;
     padding-right: 40px;
@@ -87,6 +104,11 @@
   }
 }
 
+@media screen and (min-width:1440px) {
+  .allyourfiles__cta {
+    width: 536px;
+  } /*TODO Can this be removed?*/
+
 .allyourfiles__imgbox {
   order: 1;
   flex: 0 0 225px;
@@ -111,6 +133,12 @@
   }
 }
 
+@media screen and (min-width:1440px) {
+  .allyourfiles__img {
+    height: 474px;
+  }
+}
+
 @media screen and (min-width:480px) and (max-width:1000px) {
   .allyourfiles__imgbox {
     flex: 0.5 0 auto;
@@ -129,8 +157,21 @@
   }
 }
 
+@media screen and (min-width:1440px) {
+  .allyourfiles__imgbox {
+    flex: 0 0 640px;
+    margin: 0 80px 0 0;
+  }
+}
+
 .curve_img {
   margin: 0 0 0 0;
   display: block;
   width: 375px;
+}
+
+@media screen and (min-width:1440px) {
+  .curve_img {
+    width: 1440px;
+  }
 }

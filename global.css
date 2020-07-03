@@ -33,7 +33,7 @@ img {
   margin: 0 24px 74px 24px;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px) {
+@media screen and (min-width:1000px) /*and (max-width:1439px)*/ {
   .main-header {
     height: 49px;
     padding-top: 65px;
@@ -41,12 +41,21 @@ img {
   }
 }
 
+/* @media screen and (min-width:1440px) {
+  .main-header {
+    height: 49px;
+    padding-top: 65px;
+    margin: 0 80px 86px 80px;
+  }
+} */
+
 .header-logo {
   height: 23.65px;
 }
 
+
 /*Sketch, logo split in two*/
-@media screen and (min-width:1000px) and (max-width:1439px) {
+@media screen and (min-width:1000px) /*and (max-width:1439px)*/ {
   .header-logo {
     height: 49px;
   }
@@ -65,7 +74,7 @@ img {
   margin: 15px 0 15px 0;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px) {
+@media screen and (min-width:1000px) {
   .main-nav {
     top: 63px;
     height: 19px;
