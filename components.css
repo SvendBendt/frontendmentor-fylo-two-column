@@ -60,6 +60,7 @@
   .allyourfiles__btn {
     flex: 0 0 200px;
   }
+}
 
 .cta__signup-input {
   display: block;
@@ -77,6 +78,18 @@
   margin: 0 auto 8px;
 }
 
+@media screen and (min-width:1440px) {
+  .cta__signup-input {
+    font-size: 12px;
+    border-radius: 3px;
+    /* border-style: solid; */
+    height: 48px;
+    width: 480px;
+    padding: 0 0 0 22px;
+    margin: 112px 120px 16px 120px;
+  }
+}
+
 .cta__signup-btn {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -90,6 +103,15 @@
   margin: 0 0 0 66px;
 }
 
+@media screen and (min-width:1440px) {
+  .cta__signup-btn {
+    font-size: 14px;
+    height: 48px;
+    width: 200px;
+    margin: 0 0 0 120px;
+  }
+}
+
 .social-icon {
   border-radius: 50%;
   border: solid 0.8px hsl(222, 36.2%, 90.8%);
@@ -101,4 +123,14 @@
   width: 27.06px;
   padding-top: 6px;
   margin: 0 7px 0 0;
+}
+
+@media screen and (min-width:1440px) { /*really a component?*/
+  .social-icon {
+    font-size: 14px;
+    padding-top: 8px;
+    height: 31px;
+    width: 31.22px;
+    margin: 3px 8.49px 0 0;
+  }
 }
