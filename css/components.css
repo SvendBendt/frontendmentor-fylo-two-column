@@ -121,16 +121,12 @@
   vertical-align: middle;
   height: 27px;
   width: 27.06px;
-  padding-top: 6px;
-  margin: 0 7px 0 0;
 }
 
 @media screen and (min-width:1440px) { /*really a component?*/
   .social-icon {
     font-size: 14px;
-    padding-top: 8px;
     height: 31px;
     width: 31.22px;
-    margin: 3px 8.49px 0 0;
   }
 }

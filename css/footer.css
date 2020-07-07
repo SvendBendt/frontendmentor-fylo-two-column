@@ -7,7 +7,7 @@
 @media screen and (min-width:1440px) {
   .footer {
     height: 391px;
-    padding: 105.61px 0 0 77px;
+    padding: 105.61px 261px 0 77px;
   }
 }
 
@@ -30,58 +30,55 @@
   flex-direction: column;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px) {
   .footer__content {
     flex-direction: row;
-    width: 1245px;
-    margin-left: 6px;
+    justify-content:space-between;
   }
 }
 
 .footer__contact {
-  flex: 0 0 87px;
   padding: 0;
   list-style: none;
 }
 
-@media screen and (min-width:1440px) {
-  .footer__contact {
-    flex: 0 0 441px;
-  }
-}
-
-.footer__left-nav {
-  flex: 0 0 185px;
-}
-
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px){
   .footer__left-nav {
-    flex: 0 0 269px;
+    margin-left:38px;
   }
 }
 
-.footer__right-nav {
-  flex: 0 0 149px;
-}
-
-@media screen and (min-width:1440px) {
-  .footer__right-nav {
-    flex: 0 0 266px;
+@media screen and (max-width:1000px){
+  .footer__right-nav { /*rename to nav1 and nav2 or something*/
+    margin-bottom:16px;
   }
 }
-
 .footer__social-icons {
-  flex: 0 0 50px;
-  padding: 16px 0 0 97px;
+  display:flex;
+  justify-content: center;
 }
 
 @media screen and (min-width:1440px) {
   .footer__social-icons {
-    flex: 0 0 150px;
-    padding-left: 0;
     padding-top: 15px;
   }
 }
+
+.social-icon {
+  padding-top: 6px;
+  }
+
+  .fa-twitter {
+    margin: 0 10.82px 0;
+  }
+
+@media screen and (min-width:1440px) { /*really a component?*/
+  .social-icon {
+    padding-top: 8px; /*Positions icon within border*/
+  }
+}
+
+
 
 
 .footer__contact--txt {
@@ -134,7 +131,6 @@
 @media screen and (min-width:1440px) {
   .fa-instagram {
     font-size: 16px; /*Move?*/
-    /* padding-top: 6px; */
   }
 }
 
