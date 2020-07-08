@@ -49,7 +49,7 @@
 }
 
 @media screen and (max-width:1000px){
-  .footer__nav2-nav { /*rename to nav1 and nav2 or something*/
+  .footer__nav2 { /*rename to nav1 and nav2 or something*/
     margin-bottom:16px;
   }
 }
