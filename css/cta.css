@@ -1,42 +1,74 @@
 .cta {
-  box-sizing: border-box;
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   height: 345px;
   padding-top: 52px;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:480px) and (max-width:1439px){
+  .cta{
+    height:auto;
+    padding-bottom: 71px;
+  }
+}
+
+@media screen and (min-width:1000px) {
   .cta {
     flex-direction: row;
+    justify-content: space-between;
     padding-top: 0;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .cta {
     height: 322px;
   }
 }
+
 
 .cta__textbox {
   flex: 0;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px) {
   .cta__textbox {
+    flex: 0 1 50%;
+    box-sizing: border-box;
+    padding: 100px 0 0 80px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .cta__textbox{
     flex: 0 0 720px;
   }
 }
 
+
 .cta__signup {
+  box-sizing:border-box;
   display: flex;
   flex: 0;
   flex-direction:column;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
-@media screen and (min-width:700px) and (max-width:1000px) {
+@media screen and (min-width:700px) and (max-width:999px) {
   .cta__signup {
     flex-direction: row;
   }
 }
 
+
+@media screen and (min-width:1000px) {
+  .cta__signup {
+    flex:0 1 50%;
+    margin:0;
+    padding: 112px 120px 0 120px;
+  }
+}
 
 @media screen and (min-width:1440px) {
   .cta__signup {
@@ -53,12 +85,17 @@
   margin-bottom:8px;
 }
 
-@media screen and (min-width:700px) and (max-width:1000px) {
+@media screen and (min-width:700px) and (max-width:999px) {
   .cta__signup-input {
     margin-right:20px;
   }
 }
 
+@media screen and (min-width:1000px) {
+  .cta__signup-input {
+    margin-bottom:16px;
+  }
+}
 
 @media screen and (min-width:480px) and (max-width:1000px) {
   .cta-txt {
@@ -66,9 +103,9 @@
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px) {
   .cta-txt {
-    margin: 0 100px 0 80px;
+    margin: 0 100px 0 0;
   }
 }
 
@@ -79,6 +116,6 @@
 
 @media screen and (min-width:1440px) {
   .cta-headline {
-    margin: 100px 0 16px 80px;
+    margin-bottom: 16px;
   }
 }

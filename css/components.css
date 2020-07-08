@@ -1,12 +1,11 @@
 .allyourfiles__input { /*can buttons be dried?*/
   box-sizing: border-box;
-  letter-spacing: 1px;
   border-radius: 2px;
   border-style: solid;
   border-width: 1px;
   width: 304px;
   height: 40px;
-  padding: 6px 0 0 20px;
+  padding: 1px 0 0 22px;
   margin: 0 0 16px 0;
 }
 
@@ -16,7 +15,7 @@
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px){
   .allyourfiles__input {
     flex: 0 1 50%;
     height: 45px;
@@ -26,7 +25,6 @@
 }
 
 @media screen and (min-width:1440px) {
-
   .allyourfiles__input {
     flex: 0 0 320px;
     letter-spacing: 1px; /*TODO Move?*/
@@ -36,7 +34,6 @@
 .allyourfiles__btn {
   border: none;
   border-radius: 2px;
-  letter-spacing: 1px; /*Component font etc stays for now*/
   vertical-align: middle;
   height: 40px;
   width: 304px;
@@ -44,11 +41,11 @@
   margin: 0 0 0 0;
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px){
   .allyourfiles__btn {
     flex: 0 1 50%;
     font-weight: 700;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
     height: 45px;
     width: auto;
     max-width: 200px;
@@ -78,7 +75,7 @@
   /* margin: 0 auto 8px; */
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px) {
   .cta__signup-input {
     font-size: 12px;
     border-radius: 3px;
@@ -86,8 +83,15 @@
     height: 48px;
     width: 480px;
     padding: 0 0 0 22px;
-    margin: 112px 120px 16px 120px;
   }
+}
+
+@media screen and (min-width:1000px){
+  .cta__signup-input {
+    width: 100%;
+    max-width:auto;
+  }
+
 }
 
 .cta__signup-btn {
@@ -103,12 +107,11 @@
   /* margin: 0 0 0 66px; */
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px) {
   .cta__signup-btn {
     font-size: 14px;
     height: 48px;
     width: 200px;
-    margin: 0 0 0 120px;
   }
 }
 

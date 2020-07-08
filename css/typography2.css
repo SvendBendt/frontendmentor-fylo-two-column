@@ -46,4 +46,22 @@
 
 @media screen and (min-width:1000px) and (max-width:1064px) {
   .stayproductive__h2 {margin-right:70px;}}
-/*END Media queries controlling font-sizes and line-length for landscape-view only*/
+
+@media screen and (min-width:1000px) and (max-width:1225px){
+  .cta-txt{
+    margin-right:20px;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1075px){
+  .cta__signup-input{
+    width: 200px;
+  }
+  .cta__signup{
+    flex-basis: 40%;
+    padding-right:80px;
+  }
+  .cta__textbox{
+      flex-basis: 60%;
+    }
+  }
