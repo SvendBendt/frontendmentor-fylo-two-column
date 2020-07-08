@@ -43,13 +43,13 @@
 }
 
 @media screen and (min-width:1000px){
-  .footer__left-nav {
+  .footer__nav1 {
     margin-left:38px;
   }
 }
 
 @media screen and (max-width:1000px){
-  .footer__right-nav { /*rename to nav1 and nav2 or something*/
+  .footer__nav2-nav { /*rename to nav1 and nav2 or something*/
     margin-bottom:16px;
   }
 }
