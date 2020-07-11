@@ -7,7 +7,7 @@
 }
 
 .allyourfiles__textbox-txt {
-  color: hsl(243, 87.3%, 12.4%); /*IE*/
+  color: hsl(243, 87.3%, 12.4%); /* TODO: IE fallback */
 }
 
 .allyourfiles__input {
@@ -32,12 +32,12 @@
 }
 
 .stayproductive__underline {
-  border-top: 1px solid #3da08f; /*split*/
+  border-top: 1px solid #3da08f; /* split */
 }
 
 .stayproductive__card {
   background-color: #ffffff;
-  box-shadow: 0 0 10px 5px hsla(0, 0%, 22%, 0.05); /*Again doh*/ /*IE*/
+  box-shadow: 0 0 10px 5px hsla(0, 0%, 22%, 0.05); /* Split & IE */
   color: #07043b;
 }
 
@@ -54,10 +54,6 @@
   color: #ffffff;
 }
 
-
-.cta-txt {
-/*empty?*/}
-
 .cta-headline {
   color: #ffffff;
 }
@@ -65,18 +61,17 @@
 .cta__signup-input {
   background-color: #ffffff;
   color: #c0c0c0;
-  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /*split?*/ /*IE*/
+  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /* Split&IE */
 }
 
 .cta__signup-btn {
   background-color: #3065f8;
   color: #ffffff;
-  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /*Split?*/ /*IE*/
+  box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16); /* SplitIE */
 }
 
 .footer {
   background-color: #07043b;
-  /*No color?*/
 }
 
 @media screen and (min-width:1000px) and (max-width:1439px){
@@ -100,7 +95,7 @@
 }
 
 .social-icon {
-  border: solid 0.8px hsl(222, 36.2%, 90.8%); /*split?*/ /*IE*/
+  border: solid 0.8px hsl(222, 36.2%, 90.8%); /* SplIE */
 }
 
 .attribution {
@@ -108,7 +103,7 @@
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%); /*IE*/
+  color: hsl(228, 45%, 44%); /* IE */
 }
 
 @media screen and (min-width:1000px) and (max-width:1439px){

@@ -27,7 +27,6 @@
   }
 }
 
-
 .cta__textbox {
   flex: 0;
 }
@@ -46,7 +45,6 @@
   }
 }
 
-
 .cta__signup {
   box-sizing:border-box;
   display: flex;
@@ -60,7 +58,6 @@
     flex-direction: row;
   }
 }
-
 
 @media screen and (min-width:1000px) {
   .cta__signup {
@@ -110,7 +107,6 @@
 }
 
 .cta-headline {
-  /* PP margin: 0px 85px 16px 86px; */
   margin: 0 0 16px;
 }
 

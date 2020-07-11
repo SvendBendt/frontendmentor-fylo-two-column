@@ -33,29 +33,19 @@ img {
   margin: 0 24px 74px 24px;
 }
 
-@media screen and (min-width:1000px) /*and (max-width:1439px)*/ {
+@media screen and (min-width:1000px) {
   .main-header {
     height: 49px;
     padding-top: 65px;
     margin: 0 80px 86px 80px;
   }
 }
-
-/* @media screen and (min-width:1440px) {
-  .main-header {
-    height: 49px;
-    padding-top: 65px;
-    margin: 0 80px 86px 80px;
-  }
-} */
 
 .header-logo {
   height: 23.65px;
 }
 
-
-/*Sketch, logo split in two*/
-@media screen and (min-width:1000px) /*and (max-width:1439px)*/ {
+@media screen and (min-width:1000px) { /* Sketch - logo split in two */
   .header-logo {
     height: 49px;
   }

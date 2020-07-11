@@ -1,3 +1,5 @@
+/* Font-sizes for headlines at certain breakpoints between width 376px - 1339px: fluid.css */
+
 body {
   font-family: 'Open sans', sans-serif;
   font-weight: 400;
@@ -14,29 +16,27 @@ a {
   text-align: center;
 }
 
-@media screen and (min-width:1000px) /*and (max-width:1439px)*/{
+@media screen and (min-width:1000px) {
   .main-nav__item {
     font-size: 16px;
-    letter-spacing: 0px; /*Nece?*/
+    letter-spacing: 0px;
   }
 }
 
 .allyourfiles__h1 {
-  font-family: 'Raleway', sans-serif;
-  /*Open sans in mobile actually - design-choice or mistake?*/
+  font-family: 'Raleway', sans-serif; /* TODO Open sans in mobile actually - design-choice or mistake? */
   font-weight: 700;
   font-size: 24px;
-  letter-spacing: 0.7px;
-  /*sketch*/
+  letter-spacing: 0.7px; /*sketch*/
   line-height: 1.5;
   text-align: center;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .allyourfiles__h1 {
-    font-size:40px;
+    font-size: 40px;
     letter-spacing: 0.1px;
-    text-align:left;
+    text-align: left;
   }
 }
 
@@ -47,7 +47,7 @@ a {
   text-align: center;
 }
 
-@media screen and (min-width:1000px) /*and (max-width:1439px)*/{
+@media screen and (min-width:1000px){
   .allyourfiles__textbox-txt {
     font-size: 17px;
     line-height: 1.412;
@@ -56,26 +56,25 @@ a {
   }
 }
 
-.allyourfiles__input{ /*Sketch disaligned */
+.allyourfiles__input { /*Sketch disaligned */
   font-family: 'Raleway', sans-serif;
-  font-size:12px;
+  font-size: 12px;
   letter-spacing: 0.4px;
 }
 
 @media screen and (min-width:1000px) {
-.allyourfiles__input{
-  font-size:14px;
-  letter-spacing:0.47px;
-}
-
+  .allyourfiles__input {
+    font-size: 14px;
+    letter-spacing: 0.47px;
+  }
 }
 
 .allyourfiles__btn {
   font-family: 'Raleway', sans-serif;
-  font-size:14px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0px;
-  }
+}
 
 .stayproductive__txtbox {
   font-size: 14px;
@@ -86,18 +85,16 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   text-align: center;
-  letter-spacing: 0.15px;
-  /*sketch*/
+  letter-spacing: 0.15px; /*sketch*/
 }
 
-@media screen and (min-width:480px){
+@media screen and (min-width:480px) {
   .stayproductive__h2 {
-    /* font-family: 'Open sans', sans-serif; */
-    font-size:24px;
+    font-size: 24px;
   }
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .stayproductive__h2 {
     font-size: 40px;
     text-align: left;
@@ -105,51 +102,48 @@ a {
   }
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
-.stayproductive__txt, .stayproductive__txt2 {
-  text-align:center;
-}
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .stayproductive__txt, .stayproductive__txt2 {
+    text-align: center;
+  }
 }
 
-@media screen and (min-width:1000px) and (max-width:1439px){
+/* Design jpg: text aligned left, sketch: text aligned center */
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__txt {
     font-size: 16px;
   }
 }
 
-/* Design jpg: text aligned left, sketch: text aligned center */
-
-@media screen and (min-width:1000px) and (max-width:1439px){
+@media screen and (min-width:1000px) and (max-width:1439px) {
   .stayproductive__txt2 {
     font-size: 16px;
   }
 }
 
-.stayproductive__link-box{
-  text-align:center;
+.stayproductive__link-box {
+  text-align: center;
 }
 
-@media screen and (min-width:480px) and (max-width:1000px){
-  .stayproductive__link-box{
-    text-align:center;
+@media screen and (min-width:480px) and (max-width:1000px) {
+  .stayproductive__link-box {
+    text-align: center;
   }
 }
 
-@media screen and (min-width:1000px){
-.stayproductive__link-box{
-  text-align:left;
+@media screen and (min-width:1000px) {
+  .stayproductive__link-box {
+    text-align: left;
+  }
 }
-}
-
 
 .stayproductive__link {
   font-size: 12px;
   text-align: left;
   letter-spacing: 0;
-  /* padding-left: 123px; */
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .stayproductive__link {
     font-size: 16px;
   }
@@ -161,8 +155,7 @@ a {
   letter-spacing: 0.5px;
 }
 
-
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .stayproductive__card {
     font-size: 13px;
   }
@@ -174,22 +167,21 @@ a {
   line-height: 1.5;
 }
 
-
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .stayproductive__quotesign {
     font-size: 48px;
   }
 }
 
 .stayproductive__card-txt {
-  font-size:10px;
+  font-size: 10px;
   letter-spacing: 0.38px;
   line-height: 1.8;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .stayproductive__card-txt {
-    font-size:13px;
+    font-size: 13px;
     letter-spacing: 0.5px;
     line-height: 1.8;
   }
@@ -198,11 +190,10 @@ a {
 .stayproductive__card-name {
   font-size: 9px;
   font-weight: 700;
-  letter-spacing: 0.80px;
-  /*sketch wrong?*/
+  letter-spacing: 0.80px; /*sketch wrong*/
 }
 
-  @media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .stayproductive__card-name {
     font-size: 11px;
     font-weight: 700;
@@ -216,7 +207,7 @@ a {
   line-height: 1.966;
 }
 
-  @media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .stayproductive__card-title {
     font-size: 8px;
     letter-spacing: 0.55px;
@@ -225,7 +216,7 @@ a {
 }
 
 .cta {
-  text-align:center;
+  text-align: center;
   line-height: 1.5;
 }
 
@@ -235,7 +226,7 @@ a {
   text-align: center;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .cta-txt {
     font-size: 16px;
     letter-spacing: 0.5px;
@@ -243,12 +234,11 @@ a {
   }
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) {
   .cta-txt {
-  text-align:left;
-    }
+    text-align: left;
   }
-
+}
 
 .cta-headline {
   font-family: 'Raleway', sans-serif;
@@ -260,10 +250,15 @@ a {
 
 @media screen and (min-width:1000px) {
   .cta-headline {
-  font-size: 32px;
-  text-align:left;
-  letter-spacing: 0.1px;
+    font-size: 32px;
+    text-align: left;
+    letter-spacing: 0.1px;
   }
+}
+
+.cta__signup-input {
+  font-size: 10px;
+  letter-spacing: 0;
 }
 
 @media screen and (min-width:1000px) {
@@ -275,13 +270,18 @@ a {
   }
 }
 
-
 .footer__contact--txt {
   line-height: 1;
 }
 
 .fa-instagram {
   font-size: 14px;
+}
+
+@media screen and (min-width:1440px) {
+  .fa-instagram {
+    font-size: 16px;
+  }
 }
 
 .attribution {

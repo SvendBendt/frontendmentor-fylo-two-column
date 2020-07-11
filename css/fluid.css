@@ -1,6 +1,5 @@
-/*Do not beautify*/
+/* Breakpoints for font-sizes and line-length */
 
-/*Media queries controlling font-sizes and line-length for landscape-view only*/
 @media screen and (min-width:620px) and (max-width:767px){
   .allyourfiles__h1 {font-size: 32px;}
   .stayproductive__h2 {font-size: 32px;}
@@ -14,18 +13,14 @@
 }
 
 @media screen and (min-width:950px) and (max-width:999px){
-  .allyourfiles__h1 {
-    font-size:40px;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+  .allyourfiles__h1 {font-size: 40px; margin-left: 100px; margin-right: 100px;}
   .stayproductive__h2 {font-size: 40px;}
   .allyourfiles__textbox-txt, .stayproductive__txt, .stayproductive__txt2 {font-size: 16px;}
 }
 
 @media screen and (min-width:1000px) and (max-width:1239px) {
   .allyourfiles{height:350px;margin-bottom:100px;}
-  .allyourfiles__imgbox{height:350px;} /*Move? */
+  .allyourfiles__imgbox{height:350px;}
   .allyourfiles__img {height:350px;}
   .stayproductive__h2{margin-top:20px;margin-bottom:15px;}
   .stayproductive__img{height:350px;margin-top:30px;}
@@ -34,34 +29,26 @@
   .stayproductive__underline{margin-bottom:25px;}
   }
 
-/*Margin only*/ /*Record the margin moving trololol*/
 @media screen and (min-width:1165px) and (max-width:1290px) {
   .stayproductive__h2 {margin-right:270px;}
   .stayproductive__txt{margin-right:30px;}
   .stayproductive__txt2{margin-right:20px;}
 }
 
-@media screen and (min-width:1065px) and (max-width:1165px) {
-  .stayproductive__h2 {margin-right:170px;}}
-
 @media screen and (min-width:1000px) and (max-width:1064px) {
-  .stayproductive__h2 {margin-right:70px;}}
+  .stayproductive__h2 {margin-right:70px;}
+}
+
+@media screen and (min-width:1065px) and (max-width:1165px) {
+  .stayproductive__h2 {margin-right:170px;}
+}
 
 @media screen and (min-width:1000px) and (max-width:1225px){
-  .cta-txt{
-    margin-right:20px;
-  }
+  .cta-txt {margin-right:20px;}
 }
 
 @media screen and (min-width:1000px) and (max-width:1075px){
-  .cta__signup-input{
-    width: 200px;
-  }
-  .cta__signup{
-    flex-basis: 40%;
-    padding-right:80px;
-  }
-  .cta__textbox{
-      flex-basis: 60%;
-    }
-  }
+  .cta__signup-input{width: 200px;}
+  .cta__signup{flex-basis: 40%; padding-right: 80px;}
+  .cta__textbox{flex-basis: 60%;}
+}
