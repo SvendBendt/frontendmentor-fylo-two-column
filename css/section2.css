@@ -196,7 +196,7 @@
 
 .stayproductive__card-txt {
   padding: 39px 15px 0 25.96px;
-  margin-bottom: 11px;
+  margin-bottom: 12px;
 }
 
 @media screen and (min-width:1000px) {
@@ -238,7 +238,7 @@
 }
 
 .stayproductive__card-name {
-  margin: 0 0 1px 8px;
+  margin: 0 0 0 8px;
 }
 
 @media screen and (min-width:1000px) and (max-width:1439px) {
@@ -271,12 +271,12 @@
   .stayproductive__img {
     max-width: 100%;
     height: 409px;
-    margin: 89px 24px 0 24px;
+    margin: 88px 24px 0 24px;
   }
 }
 
 @media screen and (min-width:1440px) {
   .stayproductive__img {
-    margin: 89px 80px 0 38px;
+    margin: 88px 80px 0 38px;
   }
 }

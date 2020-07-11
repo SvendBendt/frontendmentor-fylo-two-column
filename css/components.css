@@ -27,7 +27,7 @@
 @media screen and (min-width:1440px) {
   .allyourfiles__input {
     flex: 0 0 320px;
-    letter-spacing: 1px; /*TODO Move?*/
+    padding: 5px 0 0 22px;
   }
 }
 
@@ -44,8 +44,6 @@
 @media screen and (min-width:1000px){
   .allyourfiles__btn {
     flex: 0 1 50%;
-    font-weight: 700;
-    letter-spacing: 0.5px;
     height: 45px;
     width: auto;
     max-width: 200px;
@@ -82,15 +80,11 @@
     /* border-style: solid; */
     height: 48px;
     width: 480px;
-    padding: 0 0 0 22px;
+    width: 100%; /*Hmm?*/
+    max-width:auto;
+    padding: 0 0 3px 22px;
   }
 }
-
-@media screen and (min-width:1000px){
-  .cta__signup-input {
-    width: 100%;
-    max-width:auto;
-  }
 
 }
 
@@ -109,7 +103,6 @@
 
 @media screen and (min-width:1000px) {
   .cta__signup-btn {
-    font-size: 14px;
     height: 48px;
     width: 200px;
   }

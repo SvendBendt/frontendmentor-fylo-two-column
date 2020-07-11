@@ -34,7 +34,7 @@
 
 @media screen and (min-width:1440px) {
   .footer-logo {
-    margin: 2px 6px 9px 6px;
+    margin: 2px 6px 8px 6px;
   }
 }
 
@@ -69,9 +69,15 @@
 }
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:999px){
 .footer__contact {
   margin-bottom:28px;
+  }
+}
+
+@media screen and (min-width:1000px){
+.footer__contact {
+  margin:17px 0 0 6px;
   }
 }
 
@@ -93,6 +99,12 @@
   }
 }
 
+@media screen and (min-width:1000px){
+  .footer__nav2 {
+    margin-left:15px;
+  }
+}
+
 .footer__social-icons {
   display:flex;
   justify-content: center;
@@ -100,7 +112,7 @@
 
 @media screen and (min-width:1440px) {
   .footer__social-icons {
-    padding-top: 15px;
+    padding-top: 19px;
   }
 }
 
@@ -112,7 +124,13 @@
     margin: 0 10.82px 0;
   }
 
-@media screen and (min-width:1440px) { /*really a component?*/
+@media screen and (min-width:1440px){
+.fa-twitter {
+  margin: 0 13px 0;
+ }
+}
+
+@media screen and (min-width:1440px) {
   .social-icon {
     padding-top: 8px; /*Positions icon within border*/
   }
@@ -121,8 +139,13 @@
 
 
 
-.footer__contact--txt {
+.footer__phone-txt {
   display: inline;
+}
+
+.footer__mail-txt {
+  display: inline;
+  vertical-align:-2px;
 }
 
 .footer__phone-icon {
@@ -132,7 +155,7 @@
 
 @media screen and (min-width:1440px) {
   .footer__phone-icon {
-    margin: 0 19px 0 0;
+    margin: 0 19px 4px 0;
   }
 }
 
@@ -165,7 +188,7 @@
 }
 
 .fa-instagram {
-  padding-top: 6px;
+  padding-top: 8px;
 }
 
 @media screen and (min-width:1440px) {
