@@ -82,10 +82,7 @@
 }
 
 .cta__signup-btn {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 10px;
-  letter-spacing: 0;
   border: none;
   border-radius: 3.13px;
   box-shadow: 2px 3px 6px 0 hsla(243, 87.3%, 12.4%, 0.16);
@@ -104,7 +101,6 @@
   border-radius: 50%;
   border: solid 0.8px hsl(222, 36.2%, 90.8%);
   box-sizing: border-box;
-  font-size: 12px;
   text-align: center;
   vertical-align: middle;
   height: 27px;
@@ -113,7 +109,6 @@
 
 @media screen and (min-width:1440px) {
   .social-icon {
-    font-size: 14px;
     height: 31px;
     width: 31.22px;
   }
