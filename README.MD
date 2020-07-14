@@ -7,11 +7,10 @@
 *  Flexbox
 *  "BEM inspired" classnames
 
-Solution page on frontendmentor.io: https://bit.ly/32bUZfz
-Project: https://boallan.github.io/frontendmentor-fylo-two-column/
+Solution page on frontendmentor.io: https://bit.ly/32bUZfz  
+Project: https://boallan.github.io/frontendmentor-fylo-two-column/  
 
 Feedback on code or design is always appreciated
-
 
 ## Ideas for later revisits  
 
