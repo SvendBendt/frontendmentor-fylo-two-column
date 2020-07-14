@@ -7,7 +7,7 @@
 *  Flexbox
 *  "BEM inspired" classnames
 
-Solution page: https://www.frontendmentor.io/solutions/fylo-landing-page-fully-responsive-using-flexbox-vanilla-htmlcss-wKER8eC36
+Solution page on frontendmentor.io: https://bit.ly/32bUZfz
 Project: https://boallan.github.io/frontendmentor-fylo-two-column/
 
 Feedback on code or design is always appreciated
