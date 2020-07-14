@@ -1,14 +1,20 @@
-# Frontend Mentor - Fylo landing page with two column layout
+# Frontend Mentor practice project - Fylo landing page with two column layout
 
-*  Mobile-first
-*  Styled from the JPG design files, final touch up from Sketch
-*  Plain html/css
+*  Desktop-first, later converted to mobile-first
+*  2 absolute designs at 375px and 1440px with flexible portrait and landscape support in-between
+*  Styled from JPG design files, final touch up from Sketch
+*  Vanilla html/css
 *  Flexbox
-*  Responsiveness will be limited, hardcoded to the 2 sets of px values in the design files.
 *  "BEM inspired" classnames
 
-## Todo:
-* Form tags
-* Check accessibility
-* Build table-version
-* Meta tages (BP-file)
+Solution page: https://www.frontendmentor.io/solutions/fylo-landing-page-fully-responsive-using-flexbox-vanilla-htmlcss-wKER8eC36
+Project: https://boallan.github.io/frontendmentor-fylo-two-column/
+
+Feedback on code or design is always appreciated
+
+
+## Ideas for later revisits  
+
+*  Convert to relative units
+*  Higher cross-browser compability
+*  Refactoring media queries  
