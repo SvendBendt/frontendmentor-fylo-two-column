@@ -173,14 +173,14 @@ a {
   }
 }
 
-.stayproductive__card-txt {
+.kyleburton-quote {
   font-size: 10px;
   letter-spacing: 0.38px;
   line-height: 1.8;
 }
 
 @media screen and (min-width:1000px) {
-  .stayproductive__card-txt {
+  .kyleburton-quote {
     font-size: 13px;
     letter-spacing: 0.5px;
     line-height: 1.8;

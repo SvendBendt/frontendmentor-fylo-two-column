@@ -188,15 +188,15 @@
   }
 }
 
-.stayproductive__card-txt {
+.kyleburton-quote {
   padding: 39px 15px 0 25.96px;
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
 }
 
 @media screen and (min-width:1000px) {
-  .stayproductive__card-txt {
+  .kyleburton-quote {
     padding: 50px 34px 0 33px;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
   }
 }
 
