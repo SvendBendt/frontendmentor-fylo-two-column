@@ -65,7 +65,7 @@
 
 @media screen and (min-width:1000px) {
   .footer__contact {
-    
+
   }
 }
 
@@ -93,10 +93,7 @@
   }
 }
 
-.footer__social-icons {
-  display: flex;
-  justify-content: center;
-}
+
 
 @media screen and (min-width:1440px) {
   .footer__social-icons {
@@ -109,7 +106,7 @@
 }
 
 .fa-twitter {
-  margin: 0 10.82px 0;
+
 }
 
 @media screen and (min-width:1440px) {
@@ -120,12 +117,12 @@
 
 @media screen and (min-width:1440px) {
   .social-icon {
-    padding-top: 8px;
+    padding-top: 10em;
   }
 }
 
 .footer__phone-txt {
-  display: inline;
+  display: block;
 }
 
 .footer__mail-txt {
