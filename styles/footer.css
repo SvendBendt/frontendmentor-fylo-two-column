@@ -24,12 +24,7 @@
   margin: 0 0 24px 0;
 }
 
-@media screen and (min-width:700px) and (max-width:1000px) {
-  .footer-logo {
-    margin: 0 auto 24px;
-    ;
-  }
-}
+
 
 @media screen and (min-width:1440px) {
   .footer-logo {
@@ -55,12 +50,7 @@
   }
 }
 
-@media screen and (min-width:1000px) {
-  .footer__content {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
+
 
 .footer__contact {
   padding: 0;
@@ -75,7 +65,7 @@
 
 @media screen and (min-width:1000px) {
   .footer__contact {
-    margin: 17px 0 0 6px;
+    
   }
 }
 
