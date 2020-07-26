@@ -132,7 +132,7 @@
 
 .footer__phone-icon {
   margin: 0 19px 0 3px;
-  vertical-align: middle;
+
 }
 
 @media screen and (min-width:1440px) {
@@ -142,7 +142,7 @@
 }
 
 .footer__email-icon {
-  margin: 0 17px 0 2px;
+  margin: 5px 13px 100px 15px; /*??*/
   vertical-align: middle;
 }
 
