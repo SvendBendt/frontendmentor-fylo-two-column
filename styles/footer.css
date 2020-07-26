@@ -24,7 +24,12 @@
   margin: 0 0 24px 0;
 }
 
-
+@media screen and (min-width:700px) and (max-width:1000px) {
+  .footer-logo {
+    margin: 0 auto 24px;
+    ;
+  }
+}
 
 @media screen and (min-width:1440px) {
   .footer-logo {
@@ -50,7 +55,12 @@
   }
 }
 
-
+@media screen and (min-width:1000px) {
+  .footer__content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 
 .footer__contact {
   padding: 0;
@@ -65,7 +75,7 @@
 
 @media screen and (min-width:1000px) {
   .footer__contact {
-
+    margin: 17px 0 0 6px;
   }
 }
 
@@ -93,7 +103,10 @@
   }
 }
 
-
+.footer__social-icons {
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (min-width:1440px) {
   .footer__social-icons {
@@ -106,7 +119,7 @@
 }
 
 .fa-twitter {
-
+  margin: 0 10.82px 0;
 }
 
 @media screen and (min-width:1440px) {
@@ -117,12 +130,12 @@
 
 @media screen and (min-width:1440px) {
   .social-icon {
-    padding-top: 10em;
+    padding-top: 8px;
   }
 }
 
 .footer__phone-txt {
-  display: block;
+  display: inline;
 }
 
 .footer__mail-txt {
@@ -132,7 +145,7 @@
 
 .footer__phone-icon {
   margin: 0 19px 0 3px;
-
+  vertical-align: middle;
 }
 
 @media screen and (min-width:1440px) {
@@ -142,7 +155,7 @@
 }
 
 .footer__email-icon {
-  margin: 5px 13px 100px 15px; /*??*/
+  margin: 0 17px 0 2px;
   vertical-align: middle;
 }
 
