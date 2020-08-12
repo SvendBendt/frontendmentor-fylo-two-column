@@ -14,6 +14,7 @@ Feedback on code or design is always appreciated
 
 ## Ideas for later revisits  
 
+*  Implement pseudo-elements for stylistic elements (in progress)
 *  Convert to relative units
 *  Higher cross-browser compability
 *  Refactoring media queries  
